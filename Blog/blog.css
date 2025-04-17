@@ -1,0 +1,290 @@
+/* blog.css */
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    color: #333;
+  }
+  
+  .blog-header {
+    background: #003366;
+    color: #FFD700;
+    text-align: center;
+    padding: 50px 20px 30px;
+  }
+  
+  .blog-header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+  
+  .blog-container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 30px auto;
+    gap: 30px;
+    padding: 0 20px;
+  }
+  
+  .blog-posts {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  .blog-card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: #aaa 0 0 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+  }
+  
+  .blog-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .blog-card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+  }
+  .blog-posts img{
+    height: 350px;
+    object-fit: cover; 
+  }
+  
+  .blog-content {
+    padding: 20px;
+  }
+  
+  .blog-content h2 {
+    color: #003366;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+  }
+  
+  .read-more {
+    display: inline-block;
+    margin-top: 10px;
+    color: #003366;
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: 2px solid #FFD700;
+    padding-bottom: 2px;
+  }
+  
+  .read-more:hover {
+    color: #FFD700;
+  }
+  
+  .blog-sidebar {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  .search-box {
+    display: flex;
+    gap: 5px;
+  }
+  
+  .search-box input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .search-box button {
+    padding: 10px 15px;
+    background: #FFD700;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .categories, .recent-posts {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: #bbb 0 0 10px;
+  }
+  
+  .categories h3, .recent-posts h3 {
+    margin-bottom: 15px;
+    color: #003366;
+  }
+  
+  .categories ul, .recent-posts ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .categories li, .recent-posts li {
+    margin-bottom: 10px;
+  }
+  
+  .categories a, .recent-posts a {
+    color: #003366;
+    text-decoration: none;
+  }
+  
+  .categories a:hover, .recent-posts a:hover {
+    color: #FFD700;
+  }
+  
+ /* Footer Styling */
+.footer {
+  background: #003366;
+   color: #fff;
+   padding: 40px 20px;
+   text-align: center;
+}
+
+.footer-container {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   max-width: 1200px;
+   margin: auto;
+}
+
+/* Responsive Footer Logo */
+.footer img {
+   max-width: 120px;
+   height: 100px;
+   display: block;
+   margin: 0 auto 20px;
+}
+
+.footer-section,
+.details,
+.get-in-touch,
+.social-newsletter {
+   flex: 1;
+   min-width: 280px;
+   margin: 15px;
+}
+
+.footer h3 {
+   font-size: 18px;
+   margin-bottom: 15px;
+   color: #f8b400;
+}
+
+.footer p,
+.footer ul {
+   font-size: 14px;
+   line-height: 1.5;
+}
+
+.footer ul {
+   list-style: none;
+   padding: 0;
+}
+
+.footer ul li {
+   margin: 5px 0;
+}
+
+.footer ul li a {
+   color: #ddd;
+   text-decoration: none;
+   transition: color 0.3s;
+}
+
+.footer ul li a:hover {
+   color: #f8b400;
+}
+
+/* Responsive Form */
+.get-in-touch form {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   margin-bottom: 15px;
+   width: 100%;
+}
+
+
+.get-in-touch .form-group{
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 15px;
+   width: 100%;
+}
+
+.get-in-touch input,
+.get-in-touch select,
+.get-in-touch textarea {
+   width: 100%;
+   padding: 8px;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+}
+
+.send-button {
+   background: #f8b400;
+   color: #222;
+   border: none;
+   padding: 10px;
+   font-size: 16px;
+   cursor: pointer;
+   transition: background 0.3s;
+}
+
+.send-button:hover {
+   background: #e09e00;
+}
+
+/* Social Media */
+.social-icons {
+   display: flex;
+   justify-content: center;
+   gap: 15px;
+   margin: 10px 0;
+   flex-wrap: wrap;
+}
+
+.social-icons a {
+   color: #fff;
+   font-size: 20px;
+   transition: color 0.3s;
+}
+
+.social-icons a:hover {
+   color: #f8b400;
+}
+
+/* Footer Bottom */
+.footer-bottom {
+   margin-top: 20px;
+   padding-top: 15px;
+   border-top: 1px solid #444;
+   font-size: 12px;
+}
+
+
+
+
+  
+  @media (max-width: 768px) {
+    .blog-container {
+      flex-direction: column;
+      padding: 0 10px;
+    }
+  
+    .blog-header h1 {
+      font-size: 2rem;
+    }
+  
+    .blog-card img {
+      height: 200px;
+    }
+  }
+  

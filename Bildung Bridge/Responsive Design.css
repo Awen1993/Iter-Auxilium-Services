@@ -1,0 +1,330 @@
+@media (max-width: 998px) {
+    nav .nav-bar .sidebarOpen{
+        display: block;
+    }
+    nav .nav-bar .sidebarOpen{
+        display: block;
+    }
+    
+    .menu{
+        position: fixed;
+        height: 100%;
+        width: 320px;
+        left: -100%;
+        top: 0;
+        background-color: var(--side-bar);
+        padding: 20px;
+        z-index: 100;
+        transition: all 0,3s ease;
+    }
+    
+    nav.active .menu{
+        left: -0%;
+    }
+
+    .menu .logo-toggle{
+        display: block;
+        width: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 220px;
+        cursor: pointer;
+    }
+
+    .menu .logo-toggle img{
+        max-width: 100%;
+    }
+    .nav-links li:hover a::before{
+        opacity: 0;
+    }
+
+    
+ 
+     .logo-toggle .siderbarClose{
+         color: var(--text-color);
+         font-size: 24px;
+ 
+     }
+    
+    nav.active .nav-bar .navlogo a{
+        opacity: 0;
+        transition: all 0.3s ease;
+    }
+ 
+     .logo-toggle .siderbarClose{
+         color: var(--text-color);
+         font-size: 24px;
+ 
+     }
+
+     
+    /* Sidebar Menu */
+.menu {
+    position: fixed;
+    height: 100vh;
+    width: 350px; /* Ensure fixed width */
+    background-color: var(--side-bar);
+    top: 0;
+    left: -100%;
+    padding: 50px 0; /* Remove side padding */
+    box-shadow: 0 15px 15px rgba(0, 0, 0, 0.15);
+    overflow-y: auto;
+    z-index: 100;
+    transition: all 0,3s ease;
+}
+
+/* Navigation Links */
+.nav-bar .nav-links {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: left;
+    width: 100%; /* Ensure full width */
+}
+
+.nav-bar .nav-links li {
+    margin: 10px 0;
+    padding-left: 0;
+    width: 100%; /* Ensure list items span full width */
+}
+
+.nav-bar .nav-links li a {
+    padding: 10px 20px; /* Ensure text aligns to the left */
+    display: block;
+    font-size: 15px;
+    text-decoration: none;
+    color: #fff;
+    transition: background 0.3s;
+    width: 100%; /* Make clickable area full width */
+    text-align: left;
+}
+
+.nav-bar .nav-links li a:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+/* Dropdown Menu */
+.nav-links .dropdown {
+    position: static; /* Keep dropdown aligned with the sidebar */
+    background: var(--side-bar);
+    width: 100%;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease-in-out;
+    padding: 0;
+    list-style: none;
+    margin: 0;
+}
+
+.nav-links .dropdown li {
+    margin: 0;
+    padding-left: 0;
+    width: 100%;
+    line-height: 25px;
+}
+
+.nav-links .dropdown li a {
+    font-size: 15px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: block;
+    color: #fff;
+    width: 100%;
+    margin: 0;
+}
+
+.nav-bar .nav-links li:hover .dropdown {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* Hide Desktop Items from Sidebar */
+.nav-links  {
+    display: none;
+}
+
+/* Mobile Item */
+
+
+.nav-links .mobile-item {
+    display: block;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 500;
+    padding-left: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.nav-links .mobile-item:hover{
+    background: rgba(255, 255, 255, 0.1);
+}
+
+/* Ensure Proper List Alignment */
+.nav-bar .nav-links, .nav-links {
+    padding-left: 0;
+    margin-left: 0;
+    text-align: left;
+    width: 100%;
+}
+.nav-links .dropdown {
+    padding-left: 50px;
+    margin: 0;
+    line-height: 20px;
+}
+}
+
+/* ================= Hero section Responsive Design ================= */
+@media (max-width: 768px) {
+    .hero-content h1 {
+        font-size: 2rem;
+    }
+
+    .hero-content p {
+        font-size: 1rem;
+    }
+
+    .btn {
+        font-size: 1rem;
+        padding: 10px 20px;
+    }
+}
+
+/* Footer Mobile Responsiveness */
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .footer-section,
+    .details,
+    .get-in-touch,
+    .social-newsletter {
+        text-align: center;
+        min-width: 100%;
+        padding: 10px;
+    }
+    
+    .footer img {
+        max-width: 100px;
+        height: 100px;
+    }
+    
+    .get-in-touch input,
+    .get-in-touch select,
+    .get-in-touch textarea {
+        font-size: 14px;
+    }
+    
+    .social-icons {
+        justify-content: center;
+    }
+
+    .footer-bottom {
+        position: absolute;
+        margin-top: 0px;
+        padding-top: -0px;
+        font-size: 12px;
+        padding: 0px;
+        margin-left: -150px
+        
+    }
+    .footer-bottom p{
+        position: relative;
+        margin-top: 0px;
+        padding-top: -0px;
+        font-size: 12px;
+        padding: 0px;
+        margin-left: 200px
+        
+    }
+           
+}
+
+@media (max-width: 768px){
+    .Education{
+        display: none;
+    }
+
+    .Mobile-Education{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .card {
+        padding: 25px;
+    }
+
+    .Car .card img {
+        height: 250px;
+    }
+
+    .Car .card h3 {
+        font-size: 22px;
+    }
+
+    .Car .card p {
+        font-size: 16px;
+    }
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .pricing-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pricing-card {
+        width: 90%;
+    }
+
+    .modal {
+        width: 90%;
+    }
+}
+
+/* Responsive typography */
+@media (max-width: 768px) {
+    .Housing {
+        padding: 40px 15px;
+    }
+
+    .Housing h2 {
+        font-size: 1.8rem;
+    }
+
+    .Housing p {
+        font-size: 1rem;
+    }
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .Access {
+        gap: 20px;
+        padding: 30px 15px;
+    }
+
+    .Access figure {
+        max-width: 100%;
+        padding: 15px;
+    }
+
+    .Access figcaption p {
+        margin-bottom: 30px;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 768px){
+    
+}

@@ -1,0 +1,635 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Inter Auxilium Services</title>
+        <link rel="icon" href="../Pictures Page//IAS2.png" type="png">
+        <link rel="stylesheet" href="Styles.css">
+        <link rel="stylesheet" href="Responsive Design.css">
+
+          <!--=== Boxicons CSS ===-->
+          <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+          <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+          
+
+
+        
+    </head>
+    <body>
+        <button onclick="scrollToBottom()" id="bottomBtn" title="Go to bottom">↓ Bottom</button>
+        <nav>
+            <div class="nav-bar">
+                <i class='bx bx-menu sidebarOpen'></i>
+                <span class="logo navlogo"><a href="#">Inter Auxilium Service</a></span>
+        
+                <div class="menu">
+                    <div class="logo-toggle">
+                        <img src="../Pictures Page/logo 2.png" alt="logo" class="logo">
+                       <i class='bx bx-x siderbarClose'></i> 
+                    </div>
+                    
+                   <ul class="nav-links">
+                        <li><a href="../Home Page/Index.html">Home</a></li>
+                        <li>
+                            <a href="../About Us Page/Index.html" class="mobile-item">About Us</a>
+                            <ul class="dropdown">
+                                <li><a href="../About Us Page/Index.html">Who We Are </a></li>
+                                <li><a href="../About Us Page/Index.html">Mission</a></li>
+                                <li><a href="../About Us Page/Index.html">Vision</a></li>
+                                <li><a href="../About Us Page/Index.html">Our Team</a></li>
+                             </ul>
+                        </li>
+                        <li><a href="../Services Page/Index.html">Services</a>
+                            <ul class="dropdown">
+                                <li><a href="../Services Page/Index.html">OUR SERVICES</a></li>
+                                <li><a href="../Services Page/Index.html">PRE-TRAVEL SERVICES</a></li>
+                                <li><a href="../Itineraries/Index.html">Itinerary Planning</a></li>
+                                <li><a href="../Corporate Page/Index.html">Business & Corporate Travel Support</a></li>
+                                <li><a href="../Services Page/Index.html">Accommodation</a></li>
+                                <li><a href="../Services Page/Index.html">Transportation</a></li>
+                                <li><a href="../Bildung Bridge/Index.html">Bildung Bridge Program</a></li>
+                                <li><a href="">CONSULTING SERVICES</a></li>
+                             </ul>
+                        </li>
+                        <li><a href="../Blog/Index.html">Travel Insights</a>
+                            <ul class="dropdown">
+                                <li><a href="../Blog/Index.html">BLOG</a></li>
+                                <li><a href="">HISTORY</a></li>
+                             </ul>
+                        </li>
+                        <li><a href="../Contact Page/Index.html">Contact Us</a>
+                            <ul class="dropdown">
+                                <li><a href="../Contact Page/Index.html">CONTACT US</a></li>
+                                <li><a href="../FAQs/Index.html">FAQs</a></li>
+                                <li><a href="Pages/Contact.html">REQUEST A QUOTE</a></li>
+                            </ul>
+                        </li>
+                     </ul>
+                </div>
+        
+                <div class="darkLight-searchBox">
+                    <div class="dark-light">
+                        <i class='bx bx-moon moon'></i>
+                        <i class='bx bx-sun sun'></i>
+                    </div>
+        
+                    <div class="searchBox">
+                        <div class="searchToggle">
+                            <i class='bx bx-x cancel'></i>
+                            <i class='bx bx-search search'></i>
+                        </div>
+        
+                        <div class="search-field">
+                            <input type="text" id="siteSearchInput" placeholder="Search...">
+                            <i class='bx bx-search'></i>
+                        </div>
+                    </div>
+                </div>
+                    
+                </div>
+            </div>
+        </nav>
+
+        <div class="searching-wrapper">
+            <div class="searchBox">
+              <div class="search-field">
+                <input type="text" id="searchInput" placeholder="Search..." />
+              </div>
+              <ul id="searchResults"></ul>
+            </div>
+          </div>
+          
+
+
+        <section class="hero">
+         <div class="hero-slider" id="slider">
+              <div class="hero-slide"><div class="hero-content"><h1>Explore the World with Comfort & Convenience</h1><p>Welcome to your journey!</p><a href="../Home Page/Index.html" class="btn">Explore</a></div></div>
+              <div class="hero-slide"><div class="hero-content"><h1>Travel Smarter, Travel Better</h1><p>Travel with ease.</p><a href="../Services Page/Index.html" class="btn">Discover</a></div></div>
+              <div class="hero-slide"><div class="hero-content"><h1>Your Next Adventure Awaits</h1><p>Adventure awaits.</p><a href="../Bildung Bridge/Index.html" class="btn">Learn More</a></div></div>
+              <div class="hero-slide"><div class="hero-content"><h1>Your Journey, Our Priority</h1><p>Start your journey.</p><a href="../Corporate Page/Index.html" class="btn">Start Now</a></div></div>
+              <div class="hero-slide"><div class="hero-content"><h1>Discover Where Your Journey Leads Next</h1><p>Plan smarter.</p><a href="../Itineraries/Index.html" class="btn">Check It Out</a></div></div>
+              <div class="hero-slide"><div class="hero-content"><h1>Travel Made Effortless</h1><p>Seamless travel.</p><a href="../Contact Page/Index.html" class="btn">Go</a></div></div>
+              <div class="hero-slide"><div class="hero-content"><h1>Experience Travel Without Barriers</h1><p>Effortless journeys.</p><a href="../Services Page/Index.html" class="btn">Try Now</a></div></div>
+              <div class="hero-slide"><div class="hero-content"><h1>Streamlining Your Journey, Start to Finish</h1><p>Comfort and convenience.</p><a href="../Bildung Bridge/Index.html" class="btn">More Info</a></div></div>
+              <div class="hero-slide"><div class="hero-content"><h1>Travel Worries? Leave Them to Us</h1><p>Business or leisure?</p><a href="../Corporate Page/Index.html" class="btn">Let’s Go</a></div></div>
+              <div class="hero-slide"><div class="hero-content"><h1>Effortless Travel, Every Time</h1><p>Time to explore.</p><a href="../Contact Page/Index.html" class="btn">Join Now</a></div></div>
+            </div>
+        
+            <button class="prev" onclick="prevSlide()">&#10094;</button>
+            <button class="next" onclick="nextSlide()">&#10095;</button>
+          </section>
+
+          <section class="Bild">
+            <div class="Sub-Bild">
+                <div class="Bildung">
+                    <h1>Bildung Bridge Program</h1>
+                    <h3>"🧠 Education is the most powerful weapon which you can use to change the world." — Nelson Mandela</h3>
+                    <h2>Education & Teacher Training Practicum Services – Enabling Future Educators</h2>
+                    <p>Teacher training students often face significant challenges when seeking international practicum opportunities, 
+                        including securing placements, handling travel logistics, finding safe accommodations, adapting to new cultures, 
+                        and managing financial constraints. These difficulties can make it hard for students to gain the real-world teaching
+                         experience necessary to complete their certification and advance their careers.</p>
+                    <p>Inter Auxilium, through the "Bildung Bridge" initiative provide a structured platform for teacher trainees to undertake their mandatory 
+                        practicum in English-speaking countries such as Ghana. By offering end-to-end support, this program ensures that students
+                         receive the practical, cultural, and academic exposure they need to develop their teaching careers in a stress-free and
+                          enriching environment.</p>
+                    <p>This initiative connects aspiring educators with recognized schools, facilitates smooth transitions, and provides ongoing 
+                        professional, logistical, and personal support, ensuring a productive, immersive, and impactful practicum experience.
+                    </p>
+                </div>
+            </div>
+        </section>   
+
+    <div class="Heading">
+        <h2> 📌 Comprehensive Services for Teacher Training Practicum</h2>
+    </div>   
+        
+<!--Services for Teacher Training Practicum-->
+<section class="Practicum">
+    <img src="../Pictures Page/pexels-buro-millennial-636760-1438072.jpg" alt="">
+    <div class="Training">
+        <h3>Guaranteed School Placement & Practicum Coordination 📚</h3>
+        <p>Finding a suitable school for a teaching practicum abroad can be daunting. The Bildung Bridge initiative simplifies the process by securing 
+            structured placements in accredited primary and secondary schools that align with each student’s training and specialization.</p>
+        <p>Students are matched with host schools based on their subject expertise, training level, and personal preferences.</p>
+        <p>Flexible placement options in both city-based schools and rural institutions, offering diverse classroom experiences.</p>
+        <p>Collaborations with government and private schools to ensure quality learning environments.</p>
+        <p> Supervised Teaching Experience: Students receive mentorship and guidance from experienced educators to enhance their 
+            teaching skills.</p>
+        <p>📌 Each placement is carefully designed to align with the teacher trainee’s career goals and certification requirements. 
+            </p>
+    </div>
+</section>
+
+<section class="Practicum">
+    <img src="../Pictures Page/bilderboken-rlwE8f8anOc-unsplash.jpg" alt="">
+    <div class="Training">
+        <h2>Comfortable Accommodation & Local Integration 🏡</h2>
+        <p>Ensuring a safe, comfortable, and well-integrated living experience is a crucial part of the Teacher Training Practicum Program.
+           Traveling to a new country for a practicum can be overwhelming, and having the right accommodation and local support can make all 
+           the difference. Our Comprehensive Accommodation & Local Integration Services provide teacher trainees with a stress-free living 
+           arrangement, helping them adjust quickly to their new environment while focusing on their training. </p>
+        <p>Assistance in finding hostels, shared apartments, homestays with local families, or private housing based on budget and preference.</p>
+        <p>Guidance on meal plans, grocery shopping, and local dining options.</p>
+        <p>Opportunities to participate in guided cultural tours, language lessons, and local events to enhance integration.</p>
+        <p>📌 Living arrangements are carefully selected to provide comfort, security, and convenience for teacher trainees.</p>
+            </p>
+    </div>
+</section>
+
+
+<section class="Education">
+    <div class="Training">
+        <h3>Visa & Travel Assistance ✈️ <br>– Seamless Global Mobility for Teacher Trainees</h3>
+        <p>Traveling to a foreign country for a teaching practicum requires careful planning, legal documentation, and compliance with immigration 
+            regulations. Navigating visa applications, entry requirements, and travel logistics can be time-consuming and complicated, but our Visa & 
+            Travel Assistance Services ensure a smooth, stress-free journey.</p>
+          <p>Iter Auxilium Services provide comprehensive support to teacher training students, handling all aspects of visa processing, travel arrangements, 
+            and legal compliance, so they can focus on their teaching experience instead of bureaucratic hurdles.
+          </p>
+          <p>Visa Application Support: Step-by-step assistance with obtaining student visas, work permits, and any necessary legal documentation.</p>
+          <P>Pre-Departure Orientation: Cultural briefings, teaching expectations, and lifestyle adaptation tips before traveling.</P>
+          <P>Airport Transfers & Arrival Assistance: Hassle-free airport pickup and transportation to assigned accommodations or training locations.</P>
+          <P>📌 All travel-related paperwork and logistics are handled to ensure a seamless transition into the practicum experience.</P>
+    </div>
+    <img src="../Pictures Page/close-up-tourist-hands-typing-laptop-opened-suitcase-with-clothes-holiday-man-packs.jpg" alt="Visa">
+</section>
+
+<section class="Education">
+    <div class="Training">
+        <h3>Mentorship & Training Support 🎓 – Empowering Future Educators</h3>
+        <p>A successful teaching practicum goes beyond classroom instruction; it requires strong mentorship, hands-on training, and continuous professional development. 
+            Through the Mentorship & Training Support service, trainees are paired with experienced educators and education specialists who provide guidance, coaching, 
+            and career-building support to help them transition from student-teachers to confident professionals.</p>
+         <p>Professional Mentorship: Trainees are paired with experienced educators who provide guidance, feedback, and career advice throughout the practicum.</p>
+         <p>Skill Enhancement Workshops: Additional training sessions, workshops, and mentorship programs to enhance practical teaching skills.</p>
+         <P>Classroom Observation & Coaching: Trainees receive real-time classroom feedback from mentor teachers to refine their instructional methods.</P>
+         <P>Networking & Career Development: Opportunities to connect with educators, school administrators, and fellow trainees, building professional networks for future career growth.</P>
+         <P>📌 Trainees receive individualized coaching to develop their unique teaching styles and enhance their classroom management skills.</P>
+    </div>
+    <img src="../Pictures Page/satisfied-teacher.jpg" alt="Visa">
+</section>
+
+<!--Mobile-Education-->
+<section class="Mobile-Education">
+    <img src="../Pictures Page/close-up-tourist-hands-typing-laptop-opened-suitcase-with-clothes-holiday-man-packs.jpg" alt="Visa">
+    <div class="Training">
+        <h3>Visa & Travel Assistance ✈️ <br>– Seamless Global Mobility for Teacher Trainees</h3>
+        <p>Traveling to a foreign country for a teaching practicum requires careful planning, legal documentation, and compliance with immigration 
+            regulations. Navigating visa applications, entry requirements, and travel logistics can be time-consuming and complicated, but our Visa & 
+            Travel Assistance Services ensure a smooth, stress-free journey.</p>
+          <p>Iter Auxilium Services provide comprehensive support to teacher training students, handling all aspects of visa processing, travel arrangements, 
+            and legal compliance, so they can focus on their teaching experience instead of bureaucratic hurdles.
+          </p>
+          <p>Visa Application Support: Step-by-step assistance with obtaining student visas, work permits, and any necessary legal documentation.</p>
+          <P>Pre-Departure Orientation: Cultural briefings, teaching expectations, and lifestyle adaptation tips before traveling.</P>
+          <P>Airport Transfers & Arrival Assistance: Hassle-free airport pickup and transportation to assigned accommodations or training locations.</P>
+          <P>📌 All travel-related paperwork and logistics are handled to ensure a seamless transition into the practicum experience.</P>
+    </div>
+    
+</section>
+
+<section class="Mobile-Education">
+    <img src="../Pictures Page/satisfied-teacher.jpg" alt="Visa">
+    <div class="Training">
+        <h3>Mentorship & Training Support 🎓 – Empowering Future Educators</h3>
+        <p>A successful teaching practicum goes beyond classroom instruction; it requires strong mentorship, hands-on training, and continuous professional development. 
+            Through the Mentorship & Training Support service, trainees are paired with experienced educators and education specialists who provide guidance, coaching, 
+            and career-building support to help them transition from student-teachers to confident professionals.</p>
+         <p>Professional Mentorship: Trainees are paired with experienced educators who provide guidance, feedback, and career advice throughout the practicum.</p>
+         <p>Skill Enhancement Workshops: Additional training sessions, workshops, and mentorship programs to enhance practical teaching skills.</p>
+         <P>Classroom Observation & Coaching: Trainees receive real-time classroom feedback from mentor teachers to refine their instructional methods.</P>
+         <P>Networking & Career Development: Opportunities to connect with educators, school administrators, and fellow trainees, building professional networks for future career growth.</P>
+         <P>📌 Trainees receive individualized coaching to develop their unique teaching styles and enhance their classroom management skills.</P>
+    </div>
+</section>
+
+<section class="Car">
+    <div class="card">
+        <img src="../Pictures Page/modern-car-close-up-photography-in-showroom-picjumbo-com.jpeg" alt="24/7">     
+        <h3>Transportation Services – Reliable and Efficient Mobility for Teacher Trainees</h3>
+        <p>Navigating a new country can be overwhelming, especially when it comes to daily commuting and travel arrangements. 
+            Our Transportation Services are designed to ensure that teacher trainees have safe, convenient, and cost-effective 
+            transportation throughout their stay. Whether it’s commuting to schools, exploring local attractions, or handling </p>
+        <P>Arriving in a new country can be daunting, but we ensure that trainees experience a smooth transition from the airport to their accommodations.
+            Getting to and from practicum schools on time is essential. We offer flexible and dependable commuting options tailored to individual schedules and preferences.
+            Beyond practicum commitments, trainees often wish to explore the local culture, visit tourist sites, or attend professional networking events. 
+            We offer tailored transport arrangements to make this easier.
+            For trainees staying longer, we provide additional options to accommodate their extended mobility needs.
+        </P>
+
+        <h3>📌 Comprehensive Transportation Services</h3>
+        <ul>
+            <li>Airport Transfers & Arrival Assistance ✈️</li>
+            <li>Daily Commute to Practicum Schools 🏫</li>
+            <li>Weekend & Leisure Travel Assistance 🌍</li>
+            <li>Personalized & Long-Term Transportation Plans 🚗</li>
+        </ul>
+        <P>📌 With a well-structured transportation plan, trainees can focus on their practicum experience without worrying about travel logistics.
+
+        </P>
+    </div>
+    </section>
+
+    <section class="Car">
+        <div class="card">
+            <img src="../Pictures Page/pexels-pavel-danilyuk-8425027.jpg" alt="24/7">     
+            <h3>Emergency Travel & Contingency Planning 🚨 – Ensuring Safety & Preparedness for Every Journey</h3>
+            <p>Unexpected events can disrupt travel plans, and being in a foreign country adds another layer of complexity. 
+                Whether it’s a medical emergency, visa issue, flight cancellation, lost passport, security threat, or natural disaster, 
+                having a structured emergency travel plan ensures safety and peace of mind.</p>
+            <p>The Emergency Travel & Contingency Planning service provides 24/7 crisis management, real-time assistance, and customized 
+                solutions to address any travel disruptions trainees may face during their practicum. Our priority is to ensure swift, effective, 
+                and professional support, so trainees can continue their journey safely and without unnecessary stress.</p>
+            <h3>Key Components of Emergency Travel & Contingency Planning</h3>
+            <ul>
+                <li>24/7 Emergency Travel Support Hotline 📞</li>
+                <li>Flight Disruptions & Alternative Travel Arrangements ✈️</li>
+                <li>Lost Passport, Visa, or Important Documents 🛂</li>
+                <li>Personal Safety & Security Support 🛡️</li>
+                <li>Emergency Fund Assistance & Financial Contingency 💳</li>
+            </ul>
+            <P>📌 With structured mentorship and training, teacher trainees can confidently step into the world of education as skilled and competent professionals.</P>
+        </div>
+ </section>
+
+ <section class="Housing">
+    <div class="options">
+        <div class="Opt">
+         <h2>Secure & Comfortable Housing Options – A Safe and Convenient Stay for Teacher Trainees 🏡</h2>
+         <p>Relocating for a teaching practicum involves more than just securing a school placement—it also requires safe, comfortable, and convenient housing 
+            that allows trainees to focus on their work without worrying about living arrangements. Our housing services ensure that every trainee has access 
+            to well-vetted, fully furnished, and secure accommodations that fit their budget and lifestyle preferences.
+         </p>
+         <p>We offer a variety of housing options, including student hostels, shared apartments, homestays, and private housing, each designed to provide a stress-free, 
+            home-like environment. Trainees can choose short-term or long-term stays, with flexible lease agreements that suit their practicum duration.</p>
+        </div>
+    </div>
+</section>
+
+<section class="Access">
+    <figure class="House">
+          <img src="../Pictures Page/young-friends-hostel.jpg" alt="Hostel">
+          <figcaption>
+            <h2>Student Hostels <br> Budget-Friendly & Social Living 🏢</h2>
+            <p>For trainees who enjoy a community atmosphere, student hostels provide an affordable and engaging living experience.</p>
+        </figcaption>
+    </figure>  
+    <figure class="House">
+        <img src="../Pictures Page/pexels-cottonbro-4781426.jpg" alt="Hostel">
+        <figcaption>
+          <h2>Shared Apartments <br> Balance Between Privacy & Community 🏠</h2>
+          <p>For trainees who enjoy a community atmosphere, student hostels provide an affordable and engaging living experience.</p>
+      </figcaption>
+    </figure>
+    <figure class="House">
+        <img src="../Pictures Page/pexels-luis-yanez-57302-206172.jpg" alt="Hostel">
+        <figcaption>
+          <h2>Homestay with Local Families <br> Cultural Immersion & Personalized Care 🏡</h2>
+          <p>Living with a host family offers trainees a unique cultural experience, providing both hospitality and educational insight into local traditions.</p>
+      </figcaption>
+    </figure>
+    <figure class="House">
+        <img src="../Pictures Page/pexels-binyaminmellish-1396132.jpg" alt="Hostel">
+        <figcaption>
+          <h2>Private Housing <br> Premium Comfort & Complete Independence 🏘️</h2>
+          <p>For those who prefer absolute privacy, private housing offers a self-contained, high-end living space that ensures full autonomy.</p>
+      </figcaption>
+    </figure>
+    <figure class="House">
+        <img src="../Pictures Page/pexels-falling4utah-2724749.jpg" alt="Hostel">
+        <figcaption>
+          <h2>Serviced Apartments <br> Hotel-Like Comfort with More Space 🏨</h2>
+          <p>For short-term stays or those requiring a premium experience, serviced apartments offer fully furnished units with hotel-like amenities,
+             such as housekeeping, 24/7 security, and concierge services.</p>
+      </figcaption>
+    </figure>
+    <figure class="House">
+        <img src="../Pictures Page/pexels-hson-27582015.jpg" alt="Hostel">
+        <figcaption>
+          <h2>Guesthouses <br> Affordable & Local Hospitality 🏘️</h2>
+          <p>Guesthouses provide an affordable and homey alternative to hotels, often run by local families or small businesses. They offer private or shared 
+            rooms, basic amenities, and a welcoming atmosphere, making them a great option for budget-conscious trainees.</p>
+      </figcaption>
+    </figure>
+</section>
+
+ <section class="pricing-section">
+    <h2>💼 Teacher Training Services - Pricing & Packages</h2>
+    <p>Select a plan that fits your teaching goals and budget.</p>
+
+    <div class="pricing-container">
+        <!-- Standard Package -->
+        <div class="pricing-card">
+            <h3>📚 Standard Practicum Package</h3>
+            <p class="price">$1,500 - $3,500 USD</p>
+            <ul>
+                <li><i class="fa-solid fa-check"></i> Guaranteed School Placement</li>
+                <li><i class="fa-solid fa-check"></i> Shared Housing / Hostel Accommodation</li>
+                <li><i class="fa-solid fa-check"></i> Visa Processing Guidance</li>
+                <li><i class="fa-solid fa-check"></i> Local Transport Assistance</li>
+                <li><i class="fa-solid fa-check"></i> Pre-Departure Orientation</li>
+                <li><i class="fa-solid fa-check"></i> Cultural Adaptation Workshop</li>
+            </ul>
+            <button class="select-btn" onclick="openInquiryForm('Standard Practicum Package', 1500)">Apply Now</button>
+            <button class="pay-btn" onclick="payNow(1500)">Pay Now</button>
+        </div>
+
+        <!-- Premium Package -->
+        <div class="pricing-card premium">
+            <h3>⭐ Premium Practicum Package</h3>
+            <p class="price">$3,500 - $6,500 USD</p>
+            <ul>
+                <li><i class="fa-solid fa-check"></i> Private Accommodation (Studio Apartment)</li>
+                <li><i class="fa-solid fa-check"></i> Daily School Transport</li>
+                <li><i class="fa-solid fa-check"></i> Full Visa & Immigration Support</li>
+                <li><i class="fa-solid fa-check"></i> Career Coaching & Mentorship</li>
+                <li><i class="fa-solid fa-check"></i> Cultural Immersion & Local Tours</li>
+                <li><i class="fa-solid fa-check"></i> Health & Travel Insurance Guidance</li>
+                <li><i class="fa-solid fa-check"></i> Community Engagement & Volunteering</li>
+            </ul>
+            <button class="select-btn" onclick="openInquiryForm('Premium Practicum Package', 3500)">Apply Now</button>
+            <button class="pay-btn" onclick="payNow(3500)">Pay Now</button>
+        </div>
+
+        <!-- VIP Package -->
+        <div class="pricing-card">
+            <h3>🎓 VIP & Long-Term Program</h3>
+            <p class="price">$6,500 - $12,000+ USD</p>
+            <ul>
+                <li><i class="fa-solid fa-check"></i> Full Teaching Placement in International Schools</li>
+                <li><i class="fa-solid fa-check"></i> Luxury Private Apartment</li>
+                <li><i class="fa-solid fa-check"></i> Personalized Chauffeur & Transport</li>
+                <li><i class="fa-solid fa-check"></i> Exclusive Mentorship with Senior Educators</li>
+                <li><i class="fa-solid fa-check"></i> Health Insurance & VIP Medical Assistance</li>
+                <li><i class="fa-solid fa-check"></i> International Teaching Certification</li>
+                <li><i class="fa-solid fa-check"></i> Access to Elite Networking Events</li>
+            </ul>
+            <button class="select-btn" onclick="openInquiryForm('VIP & Long-Term Program', 6500)">Apply Now</button>
+            <button class="pay-btn" onclick="payNow(6500)">Pay Now</button>
+        </div>
+    </div>
+</section>
+
+<!-- Inquiry Form -->
+<div id="inquiryForm" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeInquiryForm()">&times;</span>
+        <h2>📩 Apply for <span id="selectedPackage"></span></h2>
+        <p>Fill in your details, and our team will contact you.</p>
+        <input type="text" id="name" placeholder="Full Name" required>
+        <input type="email" id="email" placeholder="Email Address" required>
+        <textarea id="message" placeholder="Any additional details?"></textarea>
+        <button class="submit-btn" onclick="submitForm()">Submit Inquiry</button>
+    </div>
+</div>
+
+
+
+<section class="Contact">
+  <h2>Get In Touch - Free Consultation</h2>
+  <form action="https://api.web3forms.com/submit" method="POST">
+    <!-- Required for Web3Forms -->
+    <input type="hidden" name="access_key" value="3085f249-33ea-4411-a253-b010d3d8a328">
+
+    <div class="form-group">
+      <input type="text" name="first_name" placeholder="First Name" required>
+      <input type="text" name="last_name" placeholder="Last Name" required>
+    </div>
+
+    <div class="form-group">
+      <input type="email" name="email" placeholder="Email" required>
+      <input type="tel" name="phone" placeholder="Phone">
+    </div>
+
+    <div class="form-group">
+      <input type="text" name="company" placeholder="Company">
+      <input type="text" name="job_title" placeholder="Job Title">
+    </div>
+
+    <div class="form-group enquiry">
+      <select id="enquiry" name="enquiry" class="enquiry" required>
+        <option value="" disabled selected>Enquiry Type</option>
+        <option value="Pre-Trip_Assistance">Travel Assistance</option>
+        <option value="Business & Corporate Travel Support">Business & Corporate Travel Support</option>
+        <option value="Bildung_Bridge Program">Bildung_Bridge Program</option>
+        <option value="itinerary_planning">Itinerary Planning</option>
+        <option value="transportation_services">Transportation Services</option>
+        <option value="Accommodation_Services">Concierge Services</option>
+        <option value="emergency_assistance">Emergency Assistance</option>
+        <option value="General_Consultation">General_Consultation</option>
+        <option value="custom_request">Custom Request</option>
+        <option value="general_enquiry">General Enquiry</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <input type="text" name="state" placeholder="State/Territory/Country">
+      <input type="text" name="country" placeholder="Country" required>
+    </div>
+
+    <textarea name="message" placeholder="Message" required></textarea>
+
+    <div class="form-check">
+      <input type="checkbox" id="terms" required>
+      <label for="terms">I agree to the <a href="#">Terms</a> and <a href="#">Privacy Policy</a>.</label>
+    </div>
+
+    <button type="submit" class="bt">Submit</button>
+  </form>
+</section>
+
+<!-- WhatsApp Chat Floating Button -->
+<a
+  href="https://wa.me/4917681395004?text=Hello%20IAS%20Team!%20I'm%20interested%20in%20your%20corporate%20services."
+  class="whatsapp-float"
+  target="_blank"
+  rel="noopener"
+  title="Chat with us on WhatsApp"
+>
+  <img src="https://img.icons8.com/color/48/000000/whatsapp--v1.png" alt="WhatsApp Chat" />
+</a>
+
+
+
+<!-- Footer Section -->
+ 
+ <footer class="footer">
+    <div class="footer-container">
+        <!-- About Section -->
+         <img src="../Pictures Page/logo 2.png" alt="Logo">
+        <div class="footer-section">
+            <h3>About Us – Iter Auxilium Services (IAS)</h3>
+            <p>We provide efficient and reliable travel solutions designed to make your journey smooth, 
+                comfortable, and stress-free. From personalized itineraries to hassle-free transportation, 
+                we ensure every detail is carefully managed, so you can focus on enjoying your trip. 
+                Whether you're traveling for business or leisure, our services guarantee convenience, 
+                safety, and peace of mind at every step.</p>
+            <p>Iter Auxilium Services (IAS) is a customer-centric travel assistance company dedicated to making 
+                global travel effortless, stress-free, and enriching. Our mission is to provide seamless travel 
+                support, ensuring that every journey—whether for business, education, leisure, or relocation—is 
+                smooth and worry-free.
+            </p>
+            <p>📌 Our commitment? Ensuring that every client experiences a well-coordinated, safe, and comfortable 
+                journey with unparalleled support from our expert team.</p>
+        </div>
+
+        <div class="details">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="../Home Page/Index.html">Home</a></li>
+                <li><a href="../About Us Page/Index.html Us">About</a></li>
+                <li><a href="../Services Page/Index.html">Services</a></li>
+                <li><a href="../Contact Page/Index.html">Contact</a></li>
+                <li><a href="../Bildung Bridge/Index.html">Bildung Bridge</a></li>
+                <li><a href="../Corporate Page/Index.html">Business & Corporate Support</a></li>
+                <li><a href="../FAQs/Index.html">FAQ</a></li>
+                <li><a href="../Itineraries/Index.html">Itineraries</a></li>
+            </ul>
+
+            <h3>Our Services</h3>
+            <ul>
+                <li><a href="../Bildung Bridge/Index.html">Bildung Bridge</a></li>
+                <li><a href="../Services Page/Index.html">Transportation</a></li>
+                <li><a href="../Corporate Page/Index.html">Business and Corporate Travel</a></li>
+                <li><a href="../Services Page/Index.html">Accommodation</a></li>
+                <li><a href="../Itineraries/Index.html">Itinerary Planning</a></li>
+            </ul>
+
+            <h3>Contact Us</h3>
+            <ul>
+                <li><i class="fas fa-map-marker-alt"></i> 123 Travel Street, City, Country</li>
+                <li><i class="fas fa-phone"></i> +491787040122 </li>
+                <li><i class="fas fa-envelope"></i>contact@yourwebsite.com</li>
+            </ul>
+
+        </div>
+
+        <!-- Get In Touch Section -->
+        <div class="get-in-touch">
+            <h3>Get In Touch</h3>
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <!-- Required for Web3Forms -->
+                <input type="hidden" name="access_key" value="3085f249-33ea-4411-a253-b010d3d8a328">
+            
+                <div class="form-group">
+                    <input type="text" placeholder="First Name" name="first-name" required>
+                    <input type="text" placeholder="Last Name" name="last-name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Work Email" name="email" required>
+                    <input type="tel" placeholder="Phone" name="phone" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" placeholder="Company" name="company">
+                    <input type="text" placeholder="Job Title" name="job-title">
+                </div>
+                <div class="form-group">
+                    <input type="text" placeholder="State/Territory/County" name="state">
+                    <input type="text" placeholder="Country" name="country">
+                </div>
+
+                <div class="form-group enquiry">
+                    <select id="enquiry" name="enquiry">
+                        <option value="" disabled selected>Enquiry Type</option>
+                        <option value="Pre-Trip_Assistance">Travel Assistance</option>
+                        <option value="Business & Corporate Travel Support">Business & Corporate Travel Support</option>
+                        <option value="Bildung_Bridge Program">Bildung_Bridge Program</option>
+                        <option value="itinerary_planning">Itinerary Planning</option>
+                        <option value="transportation_services">Transportation Services</option>
+                        <option value="Accommodation_Services">Concierge Services</option>
+                        <option value="emergency_assistance">Emergency Assistance</option>
+                        <option value="General_Consultation">General_Consultation</option>
+                        <option value="custom_request">Custom Request</option>
+                        <option value="general_enquiry">General Enquiry</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <textarea placeholder="Message" name="message" rows="3" required></textarea>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" id="agree" required><label for="agree">I agree to the <a href="#">Terms</a> and <a href="#">Privacy Policy</a>.</label>
+                </div>
+                <button type="submit" class="send-button">Send</button>
+            </form>
+        </div>
+    </div>
+<!-- Social Media & Newsletter -->
+<div class="social-newsletter">
+    <h3>Follow Us</h3>
+    <div class="social-icons">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="https://wa.me/message/OIP4JV3XYVPFK1"><i class="fab fa-whatsapp"></i></a>
+    </div>
+    
+    <h3>Subscribe to Our Newsletter</h3>
+    <form>
+        <input type="email" placeholder="Enter your email" required>
+        <button type="submit">Subscribe</button>
+    </form>
+</div>
+    <!-- Copyright -->
+    <div class="footer-bottom">
+        <p>&copy; 2024 Inter Auxilium Services. All rights reserved.</p>
+    </div>
+</footer>
+        
+    <!-- Scroll Buttons -->
+<button onclick="scrollToTop()" id="topBtn" title="Go to top">↑ Top</button>
+
+<!-- Elfsight WhatsApp Chat | Untitled WhatsApp Chat -->
+<script src="https://static.elfsight.com/platform/platform.js" async></script>
+<div class="elfsight-app-67f13546-cdfb-44ec-836e-b4f74a1cff6b" data-elfsight-app-lazy></div>
+
+
+    </body>
+    <script src="script.js"></script>
+    </html>

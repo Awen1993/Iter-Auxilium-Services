@@ -1,0 +1,441 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Inter Auxilium Services</title>
+        <link rel="icon" href="../Pictures Page//IAS2.png" type="png">
+        <link rel="stylesheet" href="Styles.css">
+        <link rel="stylesheet" href="Responsive Design.css">
+
+          <!--=== Boxicons CSS ===-->
+          <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+          <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+          
+
+
+        
+    </head>
+    <body>
+        <button onclick="scrollToBottom()" id="bottomBtn" title="Go to bottom">↓ Bottom</button>
+        <nav>
+            <div class="nav-bar">
+                <i class='bx bx-menu sidebarOpen'></i>
+                <span class="logo navlogo"><a href="#">Inter Auxilium Service</a></span>
+        
+                <div class="menu">
+                    <div class="logo-toggle">
+                        <img src="../Pictures Page/logo 2.png" alt="logo" class="logo">
+                       <i class='bx bx-x siderbarClose'></i> 
+                    </div>
+                    
+                    <ul class="nav-links">
+                      <li><a href="../Home Page/Index.html">Home</a></li>
+                      <li>
+                          <a href="../About Us Page/Index.html" class="mobile-item">About Us</a>
+                          <ul class="dropdown">
+                              <li><a href="../About Us Page/Index.html">Who We Are </a></li>
+                              <li><a href="../About Us Page/Index.html">Mission</a></li>
+                              <li><a href="../About Us Page/Index.html">Vision</a></li>
+                              <li><a href="../About Us Page/Index.html">Our Team</a></li>
+                           </ul>
+                      </li>
+                      <li><a href="../Services Page/Index.html">Services</a>
+                          <ul class="dropdown">
+                              <li><a href="../Services Page/Index.html">OUR SERVICES</a></li>
+                              <li><a href="../Services Page/Index.html">PRE-TRAVEL SERVICES</a></li>
+                              <li><a href="../Itineraries/Index.html">Itinerary Planning</a></li>
+                              <li><a href="../Corporate Page/Index.html">Business & Corporate Travel Support</a></li>
+                              <li><a href="../Services Page/Index.html">Accommodation</a></li>
+                              <li><a href="../Services Page/Index.html">Transportation</a></li>
+                              <li><a href="../Bildung Bridge/Index.html">Bildung Bridge Program</a></li>
+                              <li><a href="">CONSULTING SERVICES</a></li>
+                           </ul>
+                      </li>
+                      <li><a href="../Blog/Index.html">Travel Insights</a>
+                          <ul class="dropdown">
+                              <li><a href="../Blog/Index.html">BLOG</a></li>
+                              <li><a href="">HISTORY</a></li>
+                           </ul>
+                      </li>
+                      <li><a href="../Contact Page/Index.html">Contact Us</a>
+                          <ul class="dropdown">
+                              <li><a href="../Contact Page/Index.html">CONTACT US</a></li>
+                              <li><a href="../FAQs/Index.html">FAQs</a></li>
+                              <li><a href="Pages/Contact.html">REQUEST A QUOTE</a></li>
+                          </ul>
+                      </li>
+                   </ul>
+              </div>
+        
+                <div class="darkLight-searchBox">
+                    <div class="dark-light">
+                        <i class='bx bx-moon moon'></i>
+                        <i class='bx bx-sun sun'></i>
+                    </div>
+        
+                    <div class="searchBox">
+                        <div class="searchToggle">
+                            <i class='bx bx-x cancel'></i>
+                            <i class='bx bx-search search'></i>
+                        </div>
+        
+                        <div class="search-field">
+                            <input type="text" placeholder="Search...">
+                            <i class='bx bx-search'></i>
+                        </div>
+                    </div>
+                </div>
+                    
+                </div>
+            </div>
+        </nav>
+
+        <div class="searching-wrapper">
+            <div class="searchBox">
+              <div class="search-field">
+                <input type="text" id="searchInput" placeholder="Search..." />
+              </div>
+              <ul id="searchResults"></ul>
+            </div>
+          </div>
+
+        <section class="hero">
+            <div class="hero-slider" id="slider">
+                <div class="hero-slide"><div class="hero-content"><h1>Explore the World with Comfort & Convenience</h1><p>Welcome to your journey!</p><a href="../Home Page/Index.html" class="btn">Explore</a></div></div>
+                <div class="hero-slide"><div class="hero-content"><h1>Travel Smarter, Travel Better</h1><p>Travel with ease.</p><a href="../Services Page/Index.html" class="btn">Discover</a></div></div>
+                <div class="hero-slide"><div class="hero-content"><h1>Your Next Adventure Awaits</h1><p>Adventure awaits.</p><a href="../Bildung Bridge/Index.html" class="btn">Learn More</a></div></div>
+                <div class="hero-slide"><div class="hero-content"><h1>Your Journey, Our Priority</h1><p>Start your journey.</p><a href="../Corporate Page/Index.html" class="btn">Start Now</a></div></div>
+                <div class="hero-slide"><div class="hero-content"><h1>Discover Where Your Journey Leads Next</h1><p>Plan smarter.</p><a href="../Itineraries/Index.html" class="btn">Check It Out</a></div></div>
+                <div class="hero-slide"><div class="hero-content"><h1>Travel Made Effortless</h1><p>Seamless travel.</p><a href="../Contact Page/Index.html" class="btn">Go</a></div></div>
+                <div class="hero-slide"><div class="hero-content"><h1>Experience Travel Without Barriers</h1><p>Effortless journeys.</p><a href="../Services Page/Index.html" class="btn">Try Now</a></div></div>
+                <div class="hero-slide"><div class="hero-content"><h1>Streamlining Your Journey, Start to Finish</h1><p>Comfort and convenience.</p><a href="../Bildung Bridge/Index.html" class="btn">More Info</a></div></div>
+                <div class="hero-slide"><div class="hero-content"><h1>Travel Worries? Leave Them to Us</h1><p>Business or leisure?</p><a href="../Corporate Page/Index.html" class="btn">Let’s Go</a></div></div>
+                <div class="hero-slide"><div class="hero-content"><h1>Effortless Travel, Every Time</h1><p>Time to explore.</p><a href="../Contact Page/Index.html" class="btn">Join Now</a></div></div>
+              </div>
+        
+            <button class="prev" onclick="prevSlide()">&#10094;</button>
+            <button class="next" onclick="nextSlide()">&#10095;</button>
+          </section>
+
+          
+
+ 
+<section class="faq-section">
+  <h2>Frequently Asked Questions</h2>
+  <p class="faq-intro">Have a question about Iter Auxilium Services? Explore common inquiries below or use the search box to find what you're looking for.</p>
+
+  <input type="text" id="faqSearch" placeholder="Search FAQs..." onkeyup="filterFAQs()" />
+
+  <div class="faq-container">
+    <div class="faq-item">
+      <button class="faq-question">What services does Iter Auxilium provide?</button>
+      <div class="faq-answer">
+        <p>We offer travel support services including personalized itineraries, business travel management, accommodation, transportation, the Bildung Bridge Program for students, and emergency travel assistance.</p>
+      </div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-question">Is Iter Auxilium for businesses or individuals?</button>
+      <div class="faq-answer">
+        <p>Both! We provide tailored solutions for individual travelers, students, and corporate clients. Whether you're relocating, attending a conference, or planning a family trip, we’ve got you covered.</p>
+      </div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-question">How do I book a consultation?</button>
+      <div class="faq-answer">
+        <p>You can book a free consultation directly from our website by filling out the contact form or visiting the “Book an Appointment” section.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+        <button class="faq-question">What makes Iter Auxilium different from other travel support services?</button>
+        <div class="faq-answer">
+          <p>Iter Auxilium focuses on comprehensive, end-to-end travel management. Unlike traditional agencies, we go beyond booking—we provide emergency support, cultural orientation, student relocation services, and personalized travel strategies, all tailored to your specific needs.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+      <button class="faq-question">Can I request a custom travel solution?</button>
+      <div class="faq-answer">
+        <p>Yes! We specialize in custom travel assistance. Whether you have unique requirements for family, business, education, or VIP travel, our team can design a tailored plan just for you—including visas, transfers, accommodations, and more.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-question">How does the emergency travel support work?</button>
+      <div class="faq-answer">
+        <p>Our emergency support service gives you 24/7 access to help in situations like flight disruptions, lost documents, health crises, or security threats. Just contact our hotline or message us via our platform, and we'll coordinate solutions quickly.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-question">How do I book a consultation?</button>
+      <div class="faq-answer">
+        <p>You can book a free consultation directly from our website by filling out the contact form or visiting the “Book an Appointment” section.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-question">What is the process after I fill out the contact form?</button>
+      <div class="faq-answer">
+        <p>Once you submit your inquiry, one of our specialists will review your details and contact you within 24 hours. We’ll discuss your goals and recommend a suitable travel or support package based on your requirements.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-question">Do you help with group travel or educational tours?</button>
+      <div class="faq-answer">
+        <p>Absolutely. We offer group coordination services for educational institutions, business delegations, and cultural exchange programs. We handle logistics, scheduling, travel safety, and cultural briefings so you can focus on the purpose of your trip.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-question"> Is the Bildung Bridge Program only for students?</button>
+      <div class="faq-answer">
+        <p>Primarily yes, but we also extend certain services to faculty members or researchers moving abroad for study, research, or teaching. The program covers airport pickup, local orientation, accommodation, and even sim card/bank setup support.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-question">Do you offer support in multiple languages?</button>
+      <div class="faq-answer">
+        <p>Yes. We currently provide assistance in English, French, and German, with plans to add more languages soon to support our growing international clientele.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-question">How much do your services cost?</button>
+      <div class="faq-answer">
+        <p>Our initial consultation is free. Costs vary depending on the service package you choose—custom itineraries, student onboarding, or corporate travel programs. We’ll provide a detailed quote after understanding your needs.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-question">What is the Bildung Bridge Program?</button>
+      <div class="faq-answer">
+        <p>The Bildung Bridge Program helps international students transition smoothly by offering support for travel, accommodation, cultural adaptation, and essential services upon arrival.</p>
+      </div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-question">Can you help with last-minute travel needs?</button>
+      <div class="faq-answer">
+        <p>Yes! Our emergency travel assistance services are designed to help you handle urgent bookings, itinerary changes, or unexpected travel needs quickly and efficiently.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="faq-cta">
+    <p>Still have questions?</p>
+    <a href="#Contact" class="faq-button">Contact Us</a>
+    <a href="#appointment" class="faq-button">Book an Appointment</a>
+  </div>
+</section>
+
+
+<!-- WhatsApp Chat Floating Button -->
+<a
+  href="https://wa.me/4917681395004?text=Hello%20IAS%20Team!%20I'm%20interested%20in%20your%20corporate%20services."
+  class="whatsapp-float"
+  target="_blank"
+  rel="noopener"
+  title="Chat with us on WhatsApp"
+>
+  <img src="https://img.icons8.com/color/48/000000/whatsapp--v1.png" alt="WhatsApp Chat" />
+</a>
+
+
+    <!--Contact-->
+<section class="Contact">
+    <h2>Get In Touch-Free Consultation</h2>
+    <form action="https://api.web3forms.com/submit" method="POST">
+        <!-- Required for Web3Forms -->
+        <input type="hidden" name="access_key" value="3085f249-33ea-4411-a253-b010d3d8a328">
+
+        <div class="form-group">
+            <input type="text" name="first_name" placeholder="First Name" required>
+            <input type="text" name="last_name" placeholder="Last Name" required>
+        </div>
+        <div class="form-group">
+            <input type="email" name="email" placeholder="Email" required>
+            <input type="tel" name="phone" placeholder="Phone">
+        </div>
+        <div class="form-group">
+            <input type="text" name="company" placeholder="Company">
+            <input type="text" name="Job_title" placeholder="Job Title">
+        </div>
+        <div class="form-group enquiry">
+            <!--<label for="enquiry">Select Your Enquiry Type:</label>-->
+            <select id="enquiry" name="enquiry" class="enquiry">
+                <option value="" disabled selected>Enquiry Type</option>
+                <option value="Pre-Trip_Assistance">Travel Assistance</option>
+                <option value="Business & Corporate Travel Support">Business & Corporate Travel Support</option>
+                <option value="Bildung_Bridge Program">Bildung_Bridge Program</option>
+                <option value="itinerary_planning">Itinerary Planning</option>
+                <option value="transportation_services">Transportation Services</option>
+                <option value="Accommodation_Services">Concierge Services</option>
+                <option value="emergency_assistance">Emergency Assistance</option>
+                <option value="General_Consultation">General_Consultation</option>
+                <option value="custom_request">Custom Request</option>
+                <option value="general_enquiry">General Enquiry</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <input type="text" name="state" placeholder="State/Territory/Country">
+            <input type="text" name="country" placeholder="Country" required>
+        </div>
+
+        <textarea name="message" placeholder="Message"></textarea>
+
+        <div class="form-check">
+            <input type="checkbox" id="terms" required>
+            <label for="terms">I agree to the <a href="#">Terms</a> and <a href="#">Privacy Policy</a>.</label>
+        </div>
+        <button type="submit" class="bt">Submit</button>
+    </form>
+    <div class="">
+        <div class="">
+        </div>
+    </div>
+</section>
+
+<!-- Footer Section -->
+ 
+ <footer class="footer">
+    <div class="footer-container">
+        <!-- About Section -->
+         <img src="../Pictures Page/logo 2.png" alt="Logo">
+        <div class="footer-section">
+            <h3>About Us – Iter Auxilium Services (IAS)</h3>
+            <p>We provide efficient and reliable travel solutions designed to make your journey smooth, 
+                comfortable, and stress-free. From personalized itineraries to hassle-free transportation, 
+                we ensure every detail is carefully managed, so you can focus on enjoying your trip. 
+                Whether you're traveling for business or leisure, our services guarantee convenience, 
+                safety, and peace of mind at every step.</p>
+            <p>Iter Auxilium Services (IAS) is a customer-centric travel assistance company dedicated to making 
+                global travel effortless, stress-free, and enriching. Our mission is to provide seamless travel 
+                support, ensuring that every journey—whether for business, education, leisure, or relocation—is 
+                smooth and worry-free.
+            </p>
+            <p>📌 Our commitment? Ensuring that every client experiences a well-coordinated, safe, and comfortable 
+                journey with unparalleled support from our expert team.</p>
+        </div>
+
+        <div class="details">
+            <h3>Quick Links</h3>
+            <ul>
+              <li><a href="../Home Page/Index.html">Home</a></li>
+              <li><a href="../About Us Page/Index.html">About</a></li>
+              <li><a href="../Services Page/Index.html">Services</a></li>
+              <li><a href="../Contact Page/Index.html">Contact</a></li>
+              <li><a href="../Bildung Bridge/Index.html">Bildung Bridge</a></li>
+              <li><a href="../Corporate Page/Index.html">Business & Corporate Support</a></li>
+              <li><a href="../FAQs/Index.html">FAQ</a></li>
+              <li><a href="../Itineraries/Index.html">Itinerary Planning</a></li>
+          </ul>
+
+          <h3>Our Services</h3>
+          <ul>
+              <li><a href="../Bildung Bridge/Index.html">Bildung Bridge</a></li>
+              <li><a href="../Services Page/Index.html">Transportation</a></li>
+              <li><a href="../Corporate Page/Index.html">Business and Corporate Travel</a></li>
+              <li><a href="../Services Page/Index.html">Accommodation</a></li>
+              <li><a href="../Itineraries/Index.html">Itinerary Planning</a></li>
+          </ul>
+
+            <h3>Contact Us</h3>
+            <ul>
+                <li><i class="fas fa-map-marker-alt"></i> 123 Travel Street, City, Country</li>
+                <li><i class="fas fa-phone"></i> +491787040122</li>
+                <li><i class="fas fa-envelope"></i>contact@yourwebsite.com</li>
+            </ul>
+
+        </div>
+
+        <!-- Get In Touch Section -->
+        <div class="get-in-touch">
+    
+            <h3>Get In Touch</h3>
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <!-- Required for Web3Forms -->
+                <input type="hidden" name="access_key" value="3085f249-33ea-4411-a253-b010d3d8a328">
+
+                <div class="form-group">
+                    <input type="text" placeholder="First Name" name="first-name" required>
+                    <input type="text" placeholder="Last Name" name="last-name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Work Email" name="email" required>
+                    <input type="tel" placeholder="Phone" name="phone" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" placeholder="Company" name="company">
+                    <input type="text" placeholder="Job Title" name="job-title">
+                </div>
+                <div class="form-group">
+                    <input type="text" placeholder="State/Territory/County" name="state">
+                    <input type="text" placeholder="Country" name="country">
+                </div>
+
+                <div class="form-group enquiry">
+                    <select id="enquiry" name="enquiry">
+                        <option value="" disabled selected>Enquiry Type</option>
+                        <option value="Pre-Trip_Assistance">Travel Assistance</option>
+                        <option value="Business & Corporate Travel Support">Business & Corporate Travel Support</option>
+                        <option value="Bildung_Bridge Program">Bildung_Bridge Program</option>
+                        <option value="itinerary_planning">Itinerary Planning</option>
+                        <option value="transportation_services">Transportation Services</option>
+                        <option value="Accommodation_Services">Concierge Services</option>
+                        <option value="emergency_assistance">Emergency Assistance</option>
+                        <option value="General_Consultation">General_Consultation</option>
+                        <option value="custom_request">Custom Request</option>
+                        <option value="general_enquiry">General Enquiry</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <textarea placeholder="Message" name="message" rows="3" required></textarea>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" id="agree" required><label for="agree">I agree to the <a href="#">Terms</a> and <a href="#">Privacy Policy</a>.</label>
+                </div>
+                <button type="submit" class="send-button">Send</button>
+            </form>
+        </div>
+    </div>
+<!-- Social Media & Newsletter -->
+<div class="social-newsletter">
+    <h3>Follow Us</h3>
+    <div class="social-icons">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="https://wa.me/message/OIP4JV3XYVPFK1"><i class="fab fa-whatsapp"></i></a>
+    </div>
+    
+    <h3>Subscribe to Our Newsletter</h3>
+    <form>
+        <input type="email" placeholder="Enter your email" required>
+        <button type="submit">Subscribe</button>
+    </form>
+</div>
+    <!-- Copyright -->
+    <div class="footer-bottom">
+        <p>&copy; 2024 Inter Auxilium Services. All rights reserved.</p>
+    </div>
+</footer>
+        
+    <!-- Scroll Buttons -->
+<button onclick="scrollToTop()" id="topBtn" title="Go to top">↑ Top</button>
+
+  <!-- Elfsight WhatsApp Chat | Untitled WhatsApp Chat -->
+  <script src="https://static.elfsight.com/platform/platform.js" async></script>
+  <div class="elfsight-app-67f13546-cdfb-44ec-836e-b4f74a1cff6b" data-elfsight-app-lazy></div>
+
+
+    </body>
+    <script src="script.js"></script>
+    </html>
