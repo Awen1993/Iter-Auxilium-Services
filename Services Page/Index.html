@@ -1,0 +1,1114 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Iter Auxilium Services</title>
+        <link rel="icon" href="../Pictures Page//IAS2.png" type="png">
+        <link rel="stylesheet" href="Styles.css">
+        <link rel="stylesheet" href="Responsive Design.css">
+
+          <!--=== Boxicons CSS ===-->
+          <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+          <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+          
+
+
+        
+    </head>
+    <body>
+        <button onclick="scrollToBottom()" id="bottomBtn" title="Go to bottom">↓ Bottom</button>
+        <nav>
+            <div class="nav-bar">
+                <i class='bx bx-menu sidebarOpen'></i>
+                <span class="logo navlogo"><a href="#">Iter Auxilium Services</a></span>
+        
+                <div class="menu">
+                    <div class="logo-toggle">
+                        <img src="../Pictures Page/logo 2.png" alt="logo" class="logo">
+                       <i class='bx bx-x siderbarClose'></i> 
+                    </div>
+
+                    <ul class="nav-links">
+                        <li><a href="../Home Page/Index.html">Home</a></li>
+                        <li>
+                            <a href="../About Us Page/Index.html" class="mobile-item">About Us</a>
+                            <ul class="dropdown">
+                                <li><a href="../About Us Page/Index.html">Who We Are </a></li>
+                                <li><a href="../About Us Page/Index.html">Mission</a></li>
+                                <li><a href="../About Us Page/Index.html">Vision</a></li>
+                                <li><a href="../About Us Page/Index.html">Our Team</a></li>
+                             </ul>
+                        </li>
+                        <li><a href="../Services Page/Index.html">Services</a>
+                            <ul class="dropdown">
+                                <li><a href="../Services Page/Index.html">OUR SERVICES</a></li>
+                                <li><a href="#Service">PRE-TRAVEL SERVICES</a></li>
+                                <li><a href="../Itineraries/Index.html">Itinerary Planning</a></li>
+                                <li><a href="../Corporate Page/Index.html">Business & Corporate Travel Support</a></li>
+                                <li><a href="#Accomo">Accommodation</a></li>
+                                <li><a href="#Transp">Transportation</a></li>
+                                <li><a href="../Bildung Bridge/Index.html">Bildung Bridge Program</a></li>
+                                <li><a href="">CONSULTING SERVICES</a></li>
+                             </ul>
+                        </li>
+                        <li><a href="../Blog/Index.html">Travel Insights</a>
+                            <ul class="dropdown">
+                                <li><a href="../Blog/Index.html">BLOG</a></li>
+                                <li><a href="">HISTORY</a></li>
+                             </ul>
+                        </li>
+                        <li><a href="../Contact Page/Index.html">Contact Us</a>
+                            <ul class="dropdown">
+                                <li><a href="../Contact Page/Index.html">CONTACT US</a></li>
+                                <li><a href="../FAQs/Index.html">FAQs</a></li>
+                                <li><a href="Pages/Contact.html">REQUEST A QUOTE</a></li>
+                            </ul>
+                        </li>
+                     </ul>
+                </div>
+        
+                <div class="darkLight-searchBox">
+                    <div class="dark-light">
+                        <i class='bx bx-moon moon'></i>
+                        <i class='bx bx-sun sun'></i>
+                    </div>
+        
+                    <div class="searchBox">
+                        <div class="searchToggle">
+                            <i class='bx bx-x cancel'></i>
+                            <i class='bx bx-search search'></i>
+                        </div>
+        
+                        <div class="search-field">
+                            <input type="text" id="siteSearchInput" placeholder="Search...">
+                            <i class='bx bx-search'></i>
+                        </div>
+                    </div>
+                </div>
+                    
+                </div>
+            </div>
+        </nav>
+
+        <div class="searching-wrapper">
+            <div class="searchBox">
+              <div class="search-field">
+                <input type="text" id="searchInput" placeholder="Search..." />
+              </div>
+              <ul id="searchResults"></ul>
+            </div>
+          </div>
+
+        <section class="hero">
+            <div class="hero-slider" id="slider">
+                <div class="hero-slide"><div class="hero-content"><h1>Explore the World with Comfort & Convenience</h1><p>Welcome to your journey!</p><a href="../Home Page/Index.html" class="btn">Explore</a></div></div>
+                <div class="hero-slide"><div class="hero-content"><h1>Travel Smarter, Travel Better</h1><p>Travel with ease.</p><a href="../Services Page/Index.html" class="btn">Discover</a></div></div>
+                <div class="hero-slide"><div class="hero-content"><h1>Your Next Adventure Awaits</h1><p>Adventure awaits.</p><a href="../Bildung Bridge/Index.html" class="btn">Learn More</a></div></div>
+                <div class="hero-slide"><div class="hero-content"><h1>Your Journey, Our Priority</h1><p>Start your journey.</p><a href="../Corporate Page/Index.html" class="btn">Start Now</a></div></div>
+                <div class="hero-slide"><div class="hero-content"><h1>Discover Where Your Journey Leads Next</h1><p>Plan smarter.</p><a href="../Itineraries/Index.html" class="btn">Check It Out</a></div></div>
+                <div class="hero-slide"><div class="hero-content"><h1>Travel Made Effortless</h1><p>Seamless travel.</p><a href="../Contact Page/Index.html" class="btn">Go</a></div></div>
+                <div class="hero-slide"><div class="hero-content"><h1>Experience Travel Without Barriers</h1><p>Effortless journeys.</p><a href="../Services Page/Index.html" class="btn">Try Now</a></div></div>
+                <div class="hero-slide"><div class="hero-content"><h1>Streamlining Your Journey, Start to Finish</h1><p>Comfort and convenience.</p><a href="../Bildung Bridge/Index.html" class="btn">More Info</a></div></div>
+                <div class="hero-slide"><div class="hero-content"><h1>Travel Worries? Leave Them to Us</h1><p>Business or leisure?</p><a href="../Corporate Page/Index.html" class="btn">Let’s Go</a></div></div>
+                <div class="hero-slide"><div class="hero-content"><h1>Effortless Travel, Every Time</h1><p>Time to explore.</p><a href="../Contact Page/Index.html" class="btn">Join Now</a></div></div>
+              </div>
+        
+            <button class="prev" onclick="prevSlide()">&#10094;</button>
+            <button class="next" onclick="nextSlide()">&#10095;</button>
+          </section>
+
+        </section>
+
+
+<!--IAS Pre-Trip Services-->
+<section id="Service" class="Services">
+    <h2>Our Services</h2>
+                <h3>"Seamless travel solutions tailored for you"</h3>
+            <h2>Welcome to Iter Auxilium Services (IAS) – Your Travel Companion
+                </h2>
+            <p>At Iter Auxilium Services (IAS), we go beyond just travel assistance—we 
+                create seamless, stress-free experiences tailored to your needs. 
+                Whether you're a business traveler navigating tight schedules or 
+                a leisure explorer seeking a worry-free adventure, our comprehensive 
+                services are designed to ensure efficiency, convenience, and peace 
+                of mind at every step of your journey</p>
+
+             <p>From itinerary planning and transportation arrangements to concierge 
+                services and emergency support, we handle the details so you can focus 
+                on what truly matters—your trip. With IAS, you don’t just travel; you 
+                travel with confidence, knowing that expert assistance is always within reach.</p>
+
+            <p>Let us take care of the logistics while you enjoy a smooth and effortless journey. 
+                Explore our services and experience travel like never before! ✈️</p>
+</section>
+
+
+<section class="Trip">
+    <img src="../Pictures Page/full-shot-family-traveling-together.jpg" alt="Trip">
+   <div class="Sub-Trip">
+   <h2>Pre-Trip Services (Home Country Services)</h2> 
+   <p>Planning a trip can be exciting, but it often comes with challenges and 
+       uncertainties. Travelers may face visa issues, last-minute itinerary changes, 
+       accommodation concerns, and health precautions that can cause unnecessary stress 
+       before departure.</p>
+   <p>Iter Auxilium Services (IAS) provides a comprehensive Pre-Trip Service package designed 
+       to ensure that travelers are fully prepared, well-informed, and stress-free before their
+       journey begins. From visa applications to health and safety measures, itinerary planning, 
+       and cultural orientation, our team of experts ensures every traveler embarks on their journey 
+       with confidence and ease.</p>
+
+   <p> Our Pre-trip services encompass with the all the various support and
+      arrangements that can be provided to travelers before they depart 
+      from their home country. These services are designed to ensure that
+      travelers are well-prepared for their trip and that their travel
+      experience is as smooth as possible. </p>
+
+   <p>With IAS's travel assistance services, travelers worries before 
+      their trip is handled with love and Exceptional care.
+      We ensure that the travel process is smooth, stress-free, and enjoyable 
+      right from the start.</p>
+
+   <p>Travel consultation and planning are essential for a hassle-free and enjoyable journey. 
+       With our expert advice, travelers can ensure they are well-prepared, making their trip 
+       safe, cost-effective, and memorable. Whether it’s a business trip, family vacation, or solo 
+       adventure, good planning guarantees a smooth travel experience.</p>
+
+   <p>Our Pre- Trips services constitute a Travel Consultation and Travel Planing Phases.  
+       With IAS's travel assistance services, travelers worries before their trip is handled 
+       with exceptional care</p>
+   </div>
+</section>
+
+
+   
+<Section class="Consult">
+    <div class="Consultation">
+     <figure class="Travel">
+           <img src="../Pictures Page/top-view-hand-holding-notebook.jpg" alt="Travel">
+           <figcaption> 
+            <h3>Travel Consultation</h3>
+          <p>The Travel Consultation provides all the information that clients need to prepare for 
+            their trips such as Destination Information, Personalized Itinerary Creation and Travel 
+            Advisory Updates. </p>
+            
+                <ul>
+                  <li>Destination Information & Advice</li>
+                  <li>Visa & Immigration Requirements</li>
+                  <li>Health & Vaccination Advice</li>
+                  <li>Budget & Cost Estimation</li>
+                </ul>
+            </figcaption>
+        </figure>
+        <figure class="Travel">
+            <img src="../Pictures Page/close-up-shot-male-hands-tourist-using-laptop-sitting-floor-with-opened-suitcase-packed.jpg" mode="">
+            <figcaption>
+                <h3>Travel Planning</h3>
+           <p>Travel planning involves organizing all aspects of a trip to ensure it is smooth and hassle-free.</p>
+             
+                <ul>
+                    <li>Personalized Itinerary Creation</li>
+                    <li>Flight & Transportation Arrangements</li>
+                    <li>Accommodation Selection & Booking</li>
+                    <li>Tours & Activity Reservations</li>
+                    <li>Packing & Essential Preparations</li>
+                 </ul>
+                </figcaption>
+         </figure>
+     </div>
+
+         <!-- Airport Section with Swiper Slider -->
+<section class="Airport">
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <!-- Slide 1 -->
+            <div class="swiper-slide">
+                <div class="card">
+                    <div class="image">
+                        <img src="../Pictures Page/Travel3.jpg" alt="Slide Image">
+                    </div>
+                    <div class="name-profession">
+                        <h2 class="Services">Destination Information & Advice</h2>
+                        <p class="description">Whether you're a first-time visitor, business traveler, student, or expatriate, 
+                            IAS offers detailed information on local culture, safety, laws, transportation, and exclusive 
+                            travel tips, making your trip seamless and enjoyable.</p>
+                        <!--<button class="button"><a href="">View More</a></button>-->
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="swiper-slide">
+                <div class="card">
+                    <div class="image">
+                        <img src="../Pictures Page/portrait-smiling-woman-showing-air-ticket-passport.jpg" alt="Slide Image">
+                    </div>
+                    <div class="name-profession">
+                        <h2 class="Services">Visa & Immigration Requirements</h2>
+                        <p class="description">Our fast-tracked 
+                            processing services ensure that clients receive their visas and permits in the shortest possible time, 
+                            allowing them to focus on their travel, work, or study plans without unnecessary stress</p>
+                        <!--<button class="button"><a href="">View More</a></button>-->
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 3 -->
+            <div class="swiper-slide">
+                <div class="card">
+                    <div class="image">
+                        <img src="../Pictures Page/vaccination-1-scaled.jpg" alt="Slide Image">
+                    </div>
+                    <div class="name-profession">
+                        <h2 class="Services">Health & Vaccination Advice</h2>
+                        <p class="description">IAS helps you prepare with up-to-date health guidelines, vaccination recommendations, and medical 
+                            assistance services, ensuring a safe and worry-free journey.</p>
+                        <!--<button class="button"><a href="">View More</a></button>-->
+                    </div>
+                </div>
+            </div>
+
+             <!-- Slide 4 -->
+             <div class="swiper-slide">
+                <div class="card">
+                    <div class="image">
+                        <img src="../Pictures Page/top-view-budget-planning-note-with-pens-gray-surface-job-copybook-school-student-business-work-college-money-budget.jpg" alt="Slide Image">
+                    </div>
+                    <div class="name-profession">
+                        <h2 class="Services">Budget & Cost Estimation</h2>
+                        <p class="description"> 
+                            Iter Auxilium Services (IAS) provides expert budgeting and cost estimation assistance, 
+                            ensuring travelers make informed financial decisions while maximizing their travel experience.</p>
+                       <!--<button class="button"><a href="">View More</a></button>-->
+                    </div>
+                </div>
+            </div>  
+
+            <!-- Slide 5 -->
+            <div class="swiper-slide">
+                <div class="card">
+                    <div class="image">
+                        <img src="../Pictures Page/top-view-hand-holding-smartphone.jpg" alt="Slide Image">
+                    </div>
+                    <div class="name-profession">
+                        <h2 class="Services">Personalized Itinerary Creation
+                        </h2>
+                        <p class="description">IAS creates detailed day-by-day schedules, covering transportation, dining, cultural activities, and leisure, ensuring 
+                            travelers make the most of their time.</p>
+                        <!--<button class="button"><a href="">View More</a></button>-->
+                    </div>
+                </div>
+            </div>
+             <!-- Slide 6-->
+             <div class="swiper-slide">
+                <div class="card">
+                    <div class="image">
+                        <img src="../Pictures Page/young-adults-travelling-winter-time.jpg" alt="Slide Image">
+                    </div>
+                    <div class="name-profession">
+                        <h2 class="Services">Day Trips & Excursion Transfers</h2>
+                        <p class="description">Iter Auxilium Services (IAS) provides comfortable, well-organized, and customizable excursion 
+                            transfers to ensure travelers experience the best attractions, cultural sites, and hidden gems hassle-free.
+                        </p>
+                        <!--<button class="button"><a href="">View More</a></button>-->
+                    </div>
+                </div>
+            </div>
+
+             <!-- Slide 7 -->
+             <div class="swiper-slide">
+                <div class="card">
+                    <div class="image">
+                        <img src="../Pictures Page/map-of-the-world-2401458_1280.jpg" alt="Slide Image">
+                    </div>
+                    <div class="name-profession">
+                        <h2 class="Services">24/7 Emergency Assistance by Industry Experts</h2>
+                        <p class="description">Whether you’re dealing with medical emergencies, lost documents, last-minute travel disruptions, or security concerns, IAS is committed to keeping you safe, informed, and supported 24/7.</p>
+                        <!--<button class="button"><a href="">View More</a></button>-->
+                    </div>
+                </div>
+            </div>
+
+             <!-- Slide 8 -->
+             <div class="swiper-slide">
+                <div class="card">
+                    <div class="image">
+                        <img src="../Pictures Page/modern-car-close-up-photography-in-showroom-picjumbo-com.jpeg" alt="Slide Image">
+                    </div>
+                    <div class="name-profession">
+                        <h2 class="Services">Flight & Transportation Arrangements</h2>
+                        <p class="description">
+                             Iter Auxilium Services (IAS) provides expert flight and ground transportation arrangements, ensuring 
+                             travelers reach their destinations comfortably, efficiently, and on time.</p>
+                        <!--<button class="button"><a href="">View More</a></button>-->
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 9 -->
+            <div class="swiper-slide">
+                <div class="card">
+                    <div class="image">
+                        <img src="../Pictures Page/full-shot-man-carrying-baggage.jpg" alt="Slide Image">
+                    </div>
+                    <div class="name-profession">
+                        <h2 class="Services">Accommodation Selection & Booking</h2>
+                        <p class="description">Our accommodation selection and booking services take the hassle out 
+                            of searching for the right place to stay, 
+                            ensuring you enjoy comfort, convenience, and affordability while traveling..</p>
+                        <!--<button class="button"><a href="">View More</a></button>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+        <!-- Navigation Buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+        <!-- Pagination -->
+        <div class="swiper-pagination"></div>
+    </div>
+</section>
+
+
+
+  <!--IAS Transportation-->
+  <section id="Transp" class="Transportation">
+    <div class="Service">
+      <h3>"IAS Transportation Services – Safe, Reliable & Comfortable Travel"</h3>
+      <h2>Comprehensive Transportation Services by Iter Auxilium Services (IAS)</h2>
+      <p>At Iter Auxilium Services (IAS), we prioritize your comfort and 
+          convenience from the moment you begin your journey until you 
+          reach your final destination. </p>
+
+      <p>With IAS Transportation Services, you experience reliability, 
+              safety, and efficiency every step of the way. Wherever your 
+              travels take you, we ensure smooth mobility so you can enjoy 
+              your trip without any transportation worries.
+      </p>
+          
+      <p>IAS's transportation options makes your journey as comfortable 
+          as possible, whether by Car Rental & Car Sharing, or Airport pickup and drop-off.
+          Our comprehensive transportation services ensure a stress-free travel experience 
+          by covering every  stage of your trip:</p>
+        <ul>
+            <li>Before Departure</li>
+            <li>Upon Arrival</li>
+            <li>During Your Stay</li>
+        </ul>
+     </div>
+</section>
+
+<section class="Dep">
+    <figure class="Departure">
+     <img src="../Pictures Page/young-adults-travelling-winter-time (1).jpg" alt="Transportation">
+     <figcaption>
+         <h3>Before Departure <br>(Home Country <br>Transportation Services)</h3>
+         <p>Enjoy a hassle-free start with pre-arranged airport transfers, chauffeur services, 
+             and detailed travel coordination. We handle logistics so you can focus on your journey.</p>
+             <h4>Services</h4>
+             <ul>
+                <li>Airport Transfer Services</li>
+                <li>Luggage Handling & Transport</li>
+                <li>Car Rental Arrangements</li>
+                <li>Prepaid Public Transport Cards</li>
+             </ul>
+     </figcaption>   
+    </figure>
+
+    <figure class="Departure">
+       <img src="../Pictures Page/young-adults-travelling-winter-time (3).jpg" alt="Transportation">
+       <figcaption>
+         <h3>Upon Arrival <br>(Destination Country <br>Transportation Services)</h3>
+         <p>Whether you need a private car, a shuttle service, or VIP transport, 
+             our professional drivers are ready to greet you and ensure a smooth 
+             transfer to your hotel, business meeting, or any desired location.</p>
+             <h4>Services</h4>
+             <ul>
+                 <li>Airport Meet-and-Greet Services</li>
+                 <li>Airport Transfers</li>
+                 <li>Luggage Porters & Storage Services</li>
+                 <li>Emergency Transport Arrangements</li>
+              </ul>
+         </figcaption>
+    </figure>
+
+    <figure class="Departure">
+     <img src="../Pictures Page/full-shot-adults-traveling-with-kid.jpg" alt="Transportation">
+         <figcaption>
+          <h3>During Stay <br>(Local & Long-Distance <br>Transportation Services)</h3>
+         <p>Get around effortlessly with our flexible transport options, including 
+             on-demand rides, guided tours, and executive car services tailored to 
+             your itinerary.</p>
+             <h4>Services</h4>
+             <ul>
+                <li>Car Rental & Chauffeur Services</li>
+                <li>Public Transport Assistance</li>
+                <li>Ride-Hailing & Taxi Services</li>
+                <li>Luxury & VIP Transport</li>
+                <li>Group Transport Solutions</li>
+                <li>Day Trips & Excursion Transfers</li>
+                <li>Emergency & Medical Transport</li>
+             </ul>
+         </figcaption>
+     </figure>
+</section>
+</section>
+
+<!-- Airport Section with Swiper Slider -->
+<section class="Types">
+    <h2>Iter Auxilium Transports Services Types</h2>
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <!-- Slide 1 -->
+            <div class="swiper-slide">
+                <div class="card">
+                    <div class="image">
+                        <img src="../Transportation/01_AT_City_L.jpg" alt="Slide Image">
+                    </div>
+                    <div class="name-profession">
+                        <h3 class="Services">Airport Transfers</h3>
+                        <!--<p class="description">Whether you're a first-time visitor, business traveler, student, or expatriate, 
+                            IAS offers detailed information on local culture, safety, laws, transportation, and exclusive 
+                            travel tips, making your trip seamless and enjoyable.</p>-->
+                        <!--<button class="button"><a href="">View More</a></button>-->
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="swiper-slide">
+                <div class="card">
+                    <div class="image">
+                        <img src="../Transportation/b5e09eabe246df58c63f6f4da11ac7770fb032ca.jpg" alt="Slide Image">
+                    </div>
+                    <div class="name-profession">
+                        <h3 class="Services">Chauffeur Services                            </h3>
+                        <!--<p class="description">With a personalized approach, we guide applicants through every step of the process, 
+                            from document preparation and submission to follow-ups with immigration authorities. Our fast-tracked 
+                            processing services ensure that clients receive their visas and permits in the shortest possible time, 
+                            allowing them to focus on their travel, work, or study plans without unnecessary stress</p>-->
+                        <!--<button class="button"><a href="">View More</a></button>-->
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 3 -->
+            <div class="swiper-slide">
+                <div class="card">
+                    <div class="image">
+                        <img src="../Transportation/ccf0f9a08070bf466e99af4c5fe3a16596ca37e6.jpg" alt="Slide Image">
+                    </div>
+                    <div class="name-profession">
+                        <h3 class="Services">Car Rentals</h3>
+                        <!--<p class="description"> Iter Auxilium Services (IAS) provides expert health and vaccination advice, 
+                            ensuring travelers meet all health regulations, stay protected from illnesses, and access medical care 
+                            if needed.  IAS helps you prepare with up-to-date health guidelines, vaccination recommendations, and medical 
+                            assistance services, ensuring a safe and worry-free journey.</p>-->
+                        <!--<button class="button"><a href="">View More</a></button>-->
+                    </div>
+                </div>
+            </div>
+
+             <!-- Slide 4 -->
+             <div class="swiper-slide">
+                <div class="card">
+                    <div class="image">
+                        <img src="../Transportation/1d1e1fd0b7d6fd269b5eebfb36e6a2dd072fd22c.jpg" alt="Slide Image">
+                    </div>
+                    <div class="name-profession">
+                        <h3 class="Services"> Limousine Services</h3>
+                        <!--<p class="description">Planning a trip involves more than just booking flights and accommodations—it requires a clear 
+                            understanding of costs, budgeting strategies, and expense management. 
+                            Iter Auxilium Services (IAS) provides expert budgeting and cost estimation assistance, 
+                            ensuring travelers make informed financial decisions while maximizing their travel experience.</p>-->
+                       <!--<button class="button"><a href="">View More</a></button>-->
+                    </div>
+                </div>
+            </div>  
+
+            <!-- Slide 5 -->
+            <div class="swiper-slide">
+                <div class="card">
+                    <div class="image">
+                        <img src="../Transportation/390fd6faa0a1552df7a1cb90238fcd9ec0fcfd20.jpg" alt="Slide Image">
+                    </div>
+                    <div class="name-profession">
+                        <h3 class="Services">Public Transportation Assistance
+                        </h3>
+                        <!--<p class="description">From seamless flight coordination and luxury accommodations to curated sightseeing and exclusive experiences, 
+                            IAS ensures every journey is meticulously planned for maximum comfort, efficiency, and enjoyment. With a focus on tailored travel 
+                            planning, IAS creates detailed day-by-day schedules, covering transportation, dining, cultural activities, and leisure, ensuring 
+                            travelers make the most of their time.</p>-->
+                        <!--<button class="button"><a href="">View More</a></button>-->
+                    </div>
+                </div>
+            </div>
+             <!-- Slide 6-->
+             <div class="swiper-slide">
+                <div class="card">
+                    <div class="image">
+                        <img src="../Transportation/7465c36ef32723ceec0df5583c94cebe8ee4e1a8.jpg" alt="Slide Image">
+                    </div>
+                    <div class="name-profession">
+                        <h3 class="Services">Group & Shuttle Services</h3>
+                        <!--<p class="description">Iter Auxilium Services (IAS) provides comfortable, well-organized, and customizable excursion 
+                            transfers to ensure travelers experience the best attractions, cultural sites, and hidden gems hassle-free.
+                        </p>-->
+                        <!--<button class="button"><a href="">View More</a></button>-->
+                    </div>
+                </div>
+            </div>
+
+             <!-- Slide 7 -->
+             <div class="swiper-slide">
+                <div class="card">
+                    <div class="image">
+                        <img src="../Transportation/92ec94e0f0eecf1dd41f3d3370610551be33b8b4.jpg" alt="Slide Image">
+                    </div>
+                    <div class="name-profession">
+                        <h3 class="Services">Cycling & Eco-Friendly Transportation</h3>
+                        <!--<p class="description">Whether you’re dealing with medical emergencies, lost documents, last-minute travel disruptions, or security concerns, IAS is committed to keeping you safe, informed, and supported 24/7.</p>-->
+                        <!--<button class="button"><a href="">View More</a></button>-->
+                    </div>
+                </div>
+            </div>
+
+             <!-- Slide 8 -->
+             <div class="swiper-slide">
+                <div class="card">
+                    <div class="image">
+                        <img src="../Transportation/740382412919814cfc13ca9427279bf1b123db9a.jpg" alt="Slide Image">
+                    </div>
+                    <div class="name-profession">
+                        <h3 class="Services">On-Demand Transportation Services</h3>
+                        <!--<p class="description">Smooth and reliable transportation is essential for a stress-free travel experience.
+                             Iter Auxilium Services (IAS) provides expert flight and ground transportation arrangements, ensuring 
+                             travelers reach their destinations comfortably, efficiently, and on time.</p>-->
+                        <!--<button class="button"><a href="">View More</a></button>-->
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 9 -->
+            <div class="swiper-slide">
+                <div class="card">
+                    <div class="image">
+                        <img src="../Transportation/2e26232b218df64d60f8e22fa076918f2b5e64fd.jpg" alt="Slide Image">
+                    </div>
+                    <div class="name-profession">
+                        <h3 class="Services">Special Event Transportation</h3>
+                        <!--<p class="description">Our accommodation selection and booking services take the hassle out 
+                            of searching for the right place to stay, 
+                            ensuring you enjoy comfort, convenience, and affordability while traveling..</p>-->
+                        <!--<button class="button"><a href="">View More</a></button>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+        <!-- Navigation Buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+        <!-- Pagination -->
+        <div class="swiper-pagination"></div>
+    </div>
+</section>
+
+
+<!-- Transportation Pricing Section -->
+<section class="Transport">
+    <h2>Transportation Pricing</h2>
+    <div class="Transport-container">
+        <div class="Transport-card">
+            <img src="../Pictures Page/pexels-keira-burton-6084471.jpg" alt="Economy Ride">
+            <h3>Economy Ride</h3>
+            <p class="price">$20 / Trip</p>
+            <ul class="features">
+                <li>Affordable city rides</li>
+                <li>Standard taxi or ride-share</li>
+                <li>Perfect for short trips</li>
+                <li>24/7 Availability</li>
+            </ul>
+            <a href="#" class="btn">Book Now</a>
+        </div>
+
+        <div class="Transport-card">
+            <img src="../Pictures Page/pexels-tima-miroshnichenko-5717578.jpg" alt="Executive Car">
+            <h3>Executive Car</h3>
+            <p class="price">$50 / Trip</p>
+            <ul class="features">
+                <li>Luxury sedans</li>
+                <li>Professional chauffeur</li>
+                <li>Comfort & privacy</li>
+                <li>Business-class experience</li>
+            </ul>
+            <a href="#" class="btn">Book Now</a>
+        </div>
+
+        <div class="Transport-card">
+            <img src="../Pictures Page/pexels-minhle17vn-977237.jpg" alt="Group Transport">
+            <h3>Group Transport</h3>
+            <p class="price">$100 / Trip</p>
+            <ul class="features">
+                <li>Spacious vans & minibuses</li>
+                <li>Perfect for group travel</li>
+                <li>Airport & event shuttles</li>
+                <li>Flexible pick-up locations</li>
+            </ul>
+            <a href="#" class="btn">Book Now</a>
+        </div>
+
+        <div class="Transport-card">
+            <img src="../Pictures Page/ajit-sandhu-vTp9u1GAD1Y-unsplash.jpg" alt="VIP Limousine">
+            <h3>VIP Limousine</h3>
+            <p class="price">$199 / Trip</p>
+            <ul class="features">
+                <li>Exclusive limousine service</li>
+                <li>Elite chauffeur</li>
+                <li>Complimentary drinks</li>
+                <li>Luxury experience</li>
+            </ul>
+            <a href="#" class="btn">Book Now</a>
+        </div>
+    </div>
+    <div class="vary"><p>📌 Note: Prices vary based on destination, duration and level of customization.</p></div>
+</section>
+
+
+
+<!--IAS Accommodation Services-->
+<section id="Accomo" class="Accommodation">
+    <div class="Sub-Acc">
+      <h3>"Comfort & Convenience with IAS Accommodation Services"</h3>
+      <h2>Premium Accommodation Solutions by Iter Auxilium Services (IAS)</h2>
+      <p>At Iter Auxilium Services (IAS), we understand that where you 
+        stay plays a crucial role in your overall travel experience. 
+        That’s why we offer comprehensive accommodation services, ensuring 
+        that you enjoy comfort, safety, and convenience throughout your trip. 
+        Whether you're traveling for business, leisure, or a special occasion, 
+        we provide tailored lodging solutions to suit your needs.</p>
+    <p>Traveling to a new city or country should be an exciting, comfortable, and 
+        stress-free experience, and a well-selected accommodation plays a vital role in 
+        ensuring that. Iter Auxilium Services (IAS) offers Premium Accommodation Solutions 
+        tailored for business travelers, tourists, students, expatriates, and high-net-worth 
+        individuals, ensuring they have access to luxurious, secure, and strategically located 
+        housing options that suit their unique needs.
+    </p>
+    <p>Whether it’s a five-star hotel, executive serviced apartment, long-term residence, or exclusive 
+        villa, IAS ensures that every traveler enjoys a comfortable, safe, and hassle-free stay with 
+        access to world-class amenities, personalized services, and strategic locations.</p>
+    </div>
+</section>
+
+
+<section class="Mobile-Apartment">
+    <img src="../Pictures Page/visualsofdana-T5pL6ciEn-I-unsplash.jpg"  alt="Apartments">
+    <div class="Sub-Apart">
+        <h2> Luxury Hotels & Resorts 🌟</h2>
+        <p>For those who seek the finest hospitality, our 5-star hotels and
+            high-end resorts provide</p>
+            <ul>
+                <li>✔️Spacious suites with elegant interiors</li>
+                <li>✔️World-class amenities, including spas, pools, and fitness centers</li>
+                <li>✔️Personalized concierge services</li>
+                <li>✔️Fine dining restaurants & exclusive lounges</li>
+                <li>✔️ Centrally located properties with easy transport access</li>
+            </ul>
+    </div>
+</section>
+
+<section class="Mobile-Apartment">
+    <img src="../Pictures Page/bilderboken-rlwE8f8anOc-unsplash.jpg" alt="Business Apartment">
+    <div class="Sub-Apart">
+        <h2> Business & Corporate Stays 💼 </h2>
+        <p>Ideal for professionals and executives, our business accommodations feature</p>
+            <ul>
+                <li>✔️ Prime locations near commercial districts</li>
+                <li>✔️ High-speed Wi-Fi & fully equipped workspaces</li>
+                <li>✔️ Conference rooms & meeting facilities</li>
+                <li>✔️ 24/7 business support services</li>
+                <li>✔️ Clean, safe, and comfortable rooms</li>
+
+            </ul>
+    </div>  
+</section>
+
+
+<section class="Mobile-Apartment">
+    <img src="../Pictures Page/Accomodation1.jpg" alt="Homestays">
+    <div class="Sub-Apart">
+        <h2> Serviced Apartments, Homestays & Extended Stays 🏡</h2>
+        <p>For travelers on long-term assignments or family stays, we provide</p>
+        <ul>
+            <li>✔️ Fully furnished apartments with kitchen facilities</li>
+            <li>✔️ Housekeeping and maintenance services</li>
+            <li>✔️ Flexible leasing options (weekly/monthly)</li>
+            <li>✔️ Home-like comfort with hotel-like services</li>
+            <li>✔️ Home-sharing programs for an immersive local experiences</li>
+            <li>✔️ Ideal for solo travelers, backpackers, and students</li>
+        </ul>
+    </div>
+</section>
+
+<section class="Mobile-Apartment">
+    <img src="../Pictures Page/Acc.jpg" alt="Business Apartment">
+    <div class="Sub-Apart">
+        <h2> Boutique Hotels & Unique Stays 🏰</h2>
+        <p>For those who love personalized and artistic stays, our boutique hotels offer</p>
+        <ul>
+            <li>✔️ Fully furnished apartments with kitchen facilities</li>
+            <li>✔️ Housekeeping and maintenance services</li>
+            <li>✔️ Flexible leasing options (weekly/monthly)</li>
+            <li>✔️ Home-like comfort with hotel-like services</li>
+            <li>✔️ Home-sharing programs for an immersive local experiences</li>
+            <li>✔️ Ideal for solo travelers, backpackers, and students</li>
+        </ul>
+    </div>
+</section>
+
+<section class="Apartment">
+    <div class="Sub-Apart">
+        <h2> Luxury Hotels & Resorts 🌟</h2>
+        <p>For those who seek the finest hospitality, our 5-star hotels and
+            high-end resorts provide</p>
+            <ul>
+                <li>✔️Spacious suites with elegant interiors</li>
+                <li>✔️World-class amenities, including spas, pools, and fitness centers</li>
+                <li>✔️Personalized concierge services</li>
+                <li>✔️Fine dining restaurants & exclusive lounges</li>
+                <li>✔️ Centrally located properties with easy transport access</li>
+            </ul>
+    </div>
+    <img src="../Pictures Page/visualsofdana-T5pL6ciEn-I-unsplash.jpg"  alt="Apartments">
+</section>
+
+<section class="Apartment">
+    <div class="Sub-Apart">
+        <h2> Business & Corporate Stays 💼 </h2>
+        <p>Ideal for professionals and executives, our business accommodations feature</p>
+            <ul>
+                <li>✔️ Prime locations near commercial districts</li>
+                <li>✔️ High-speed Wi-Fi & fully equipped workspaces</li>
+                <li>✔️ Conference rooms & meeting facilities</li>
+                <li>✔️ 24/7 business support services</li>
+                <li>✔️ Clean, safe, and comfortable rooms</li>
+
+            </ul>
+    </div>
+    <img src="../Pictures Page/bilderboken-rlwE8f8anOc-unsplash.jpg" alt="Business Apartment">
+</section>
+
+
+<section class="Apartment">
+    <img src="../Pictures Page/Accomodation1.jpg" alt="Homestays">
+    <div class="Sub-Apart">
+        <h2> Serviced Apartments, Homestays & Extended Stays 🏡</h2>
+        <p>For travelers on long-term assignments or family stays, we provide</p>
+        <ul>
+            <li>✔️ Fully furnished apartments with kitchen facilities</li>
+            <li>✔️ Housekeeping and maintenance services</li>
+            <li>✔️ Flexible leasing options (weekly/monthly)</li>
+            <li>✔️ Home-like comfort with hotel-like services</li>
+            <li>✔️ Home-sharing programs for an immersive local experiences</li>
+            <li>✔️ Ideal for solo travelers, backpackers, and students</li>
+        </ul>
+    </div>
+</section>
+
+<section class="Apartment">
+    <img src="../Pictures Page/Acc.jpg" alt="Business Apartment">
+    <div class="Sub-Apart">
+        <h2> Boutique Hotels & Unique Stays 🏰</h2>
+        <p>For those who love personalized and artistic stays, our boutique hotels offer</p>
+        <ul>
+            <li>✔️ Fully furnished apartments with kitchen facilities</li>
+            <li>✔️ Housekeeping and maintenance services</li>
+            <li>✔️ Flexible leasing options (weekly/monthly)</li>
+            <li>✔️ Home-like comfort with hotel-like services</li>
+            <li>✔️ Home-sharing programs for an immersive local experiences</li>
+            <li>✔️ Ideal for solo travelers, backpackers, and students</li>
+        </ul>
+    </div>
+</section>
+
+ 
+ <section class="accommodation-section">
+     <h2>Our Accommodation Pricing</h2>
+     <div class="price-container">
+         <!-- Budget Stay -->
+         <div class="price-card">
+             <img src="../Pictures Page/patrick-robert-doyle-AH8zKXqFITA-unsplash.jpg" alt="Budget Stay">
+             <h3>Budget Stay</h3>
+             <p class="price">$49 / Night</p>
+             <ul class="features">
+                 <li>Shared rooms or basic hotels</li>
+                 <li>Free WiFi</li>
+                 <li>Breakfast included</li>
+                 <li>Great for solo travelers</li>
+             </ul>
+             <a href="#" class="btn">Book Now</a>
+         </div>
+ 
+         <!-- Standard Hotel -->
+         <div class="price-card">
+             <img src="../Pictures Page/reisetopia-aI6Su7Mu9Ro-unsplash.jpg" alt="Standard Hotel">
+             <h3>Standard Hotel</h3>
+             <p class="price">$99 / Night</p>
+             <ul class="features">
+                 <li>3-star or 4-star hotels</li>
+                 <li>Private rooms with amenities</li>
+                 <li>Breakfast & room service</li>
+                 <li>Ideal for families</li>
+             </ul>
+             <a href="#" class="btn">Book Now</a>
+         </div>
+ 
+         <!-- Luxury Suite -->
+         <div class="price-card">
+             <img src="../Pictures Page/albero-furniture-bratislava-3RfIi22Y97Y-unsplash.jpg" alt="Luxury Suite">
+             <h3>Luxury Suite</h3>
+             <p class="price">$249 / Night</p>
+             <ul class="features">
+                 <li>5-star hotels & resorts</li>
+                 <li>Private suites with ocean views</li>
+                 <li>Luxury dining & spa access</li>
+                 <li>Perfect for VIP travelers</li>
+             </ul>
+             <a href="#" class="btn">Book Now</a>
+         </div>
+ 
+         <!-- Custom Stay -->
+         <div class="price-card">
+             <img src="../Pictures Page/anmol-seth-hDbCjHNdF48-unsplash.jpg" alt="Custom Stay">
+             <h3>Custom Stay</h3>
+             <p class="price">Contact Us</p>
+             <ul class="features">
+                 <li>Personalized accommodation options</li>
+                 <li>Private villas & luxury rentals</li>
+                 <li>Exclusive travel concierge</li>
+                 <li>Perfect for long stays</li>
+             </ul>
+             <a href="#" class="btn">Get a Quote</a>
+         </div>
+         <div class="vary"><p>📌 Note: Prices vary based on type of accommodation and level of customization.</p></div>
+     </div>
+ </section>
+
+<!-- WhatsApp Chat Floating Button -->
+<a
+  href="https://wa.me/4917681395004?text=Hello%20IAS%20Team!%20I'm%20interested%20in%20your%20corporate%20services."
+  class="whatsapp-float"
+  target="_blank"
+  rel="noopener"
+  title="Chat with us on WhatsApp"
+>
+  <img src="https://img.icons8.com/color/48/000000/whatsapp--v1.png" alt="WhatsApp Chat" />
+</a>
+    
+        
+
+
+    <!--Contact-->
+<section class="Contact">
+    <h2>Get In Touch-Free Consultation</h2>
+    <form action="https://api.web3forms.com/submit" method="POST">
+        <!-- Required for Web3Forms -->
+        <input type="hidden" name="access_key" value="3085f249-33ea-4411-a253-b010d3d8a328">
+    
+        <div class="form-group">
+            <input type="text" name="first_name" placeholder="First Name" required>
+            <input type="text" name="last_name" placeholder="Last Name" required>
+        </div>
+        <div class="form-group">
+            <input type="email" name="email" placeholder="Email" required>
+            <input type="tel" name="phone" placeholder="Phone">
+        </div>
+        <div class="form-group">
+            <input type="text" name="company" placeholder="Company">
+            <input type="text" name="Job_title" placeholder="Job Title">
+        </div>
+        <div class="form-group enquiry">
+            <!--<label for="enquiry">Select Your Enquiry Type:</label>-->
+            <select id="enquiry" name="enquiry" class="enquiry">
+                <option value="" disabled selected>Enquiry Type</option>
+                <option value="Pre-Trip_Assistance">Travel Assistance</option>
+                <option value="Business & Corporate Travel Support">Business & Corporate Travel Support</option>
+                <option value="Bildung_Bridge Program">Bildung_Bridge Program</option>
+                <option value="itinerary_planning">Itinerary Planning</option>
+                <option value="transportation_services">Transportation Services</option>
+                <option value="Accommodation_Services">Concierge Services</option>
+                <option value="emergency_assistance">Emergency Assistance</option>
+                <option value="General_Consultation">General_Consultation</option>
+                <option value="custom_request">Custom Request</option>
+                <option value="general_enquiry">General Enquiry</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <input type="text" name="state" placeholder="State/Territory/Country">
+            <input type="text" name="country" placeholder="Country" required>
+        </div>
+
+        <textarea name="message" placeholder="Message"></textarea>
+
+        <div class="form-check">
+            <input type="checkbox" id="terms" required>
+            <label for="terms">I agree to the <a href="#">Terms</a> and <a href="#">Privacy Policy</a>.</label>
+        </div>
+        <button type="submit" class="bt">Submit</button>
+    </form>
+    <div class="">
+        <div class="">
+        </div>
+    </div>
+</section>
+
+<!-- Footer Section -->
+ 
+ <footer class="footer">
+    <div class="footer-container">
+        <!-- About Section -->
+         <img src="../Pictures Page/logo 2.png" alt="Logo">
+        <div class="footer-section">
+            <h3>About Us – Iter Auxilium Services (IAS)</h3>
+            <p>We provide efficient and reliable travel solutions designed to make your journey smooth, 
+                comfortable, and stress-free. From personalized itineraries to hassle-free transportation, 
+                we ensure every detail is carefully managed, so you can focus on enjoying your trip. 
+                Whether you're traveling for business or leisure, our services guarantee convenience, 
+                safety, and peace of mind at every step.</p>
+            <p>Iter Auxilium Services (IAS) is a customer-centric travel assistance company dedicated to making 
+                global travel effortless, stress-free, and enriching. Our mission is to provide seamless travel 
+                support, ensuring that every journey—whether for business, education, leisure, or relocation—is 
+                smooth and worry-free.
+            </p>
+            <p>📌 Our commitment? Ensuring that every client experiences a well-coordinated, safe, and comfortable 
+                journey with unparalleled support from our expert team.</p>
+        </div>
+
+        <div class="details">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="About Us.html">About</a></li>
+                <li><a href="Pages/Service.html">Services</a></li>
+                <li><a href="Pages/Contact.html">Contact</a></li>
+                <li><a href="Pages/Bildung Bridge.html">Bildung Bridge</a></li>
+                <li><a href="Pages/Business.html">Business & Corporate Support</a></li>
+                <li><a href="#">FAQ</a></li>
+            </ul>
+
+            <h3>Our Services</h3>
+              <ul>
+                <li><a href="../Home Page/Index.html">Home</a></li>
+                <li><a href="../About Us Page/Index.html">About</a></li>
+                <li><a href="../Services Page/Index.html">Services</a></li>
+                <li><a href="../Contact Page/Index.html">Contact</a></li>
+                <li><a href="../Bildung Bridge/Index.html">Bildung Bridge</a></li>
+                <li><a href="../Corporate Page/Index.html">Business & Corporate Support</a></li>
+                <li><a href="../FAQs/Index.html">FAQ</a></li>
+                <li><a href="../Itineraries/Index.html">Itinerary Planning</a></li>
+            </ul>
+
+            <h3>Contact Us</h3>
+            <ul>
+                <li><i class="fas fa-map-marker-alt"></i> 123 Travel Street, City, Country</li>
+                <li><i class="fas fa-phone"></i> +491787040122</li>
+                <li><i class="fas fa-envelope"></i>contact@yourwebsite.com</li>
+            </ul>
+
+        </div>
+
+        <!-- Get In Touch Section -->
+        <div class="get-in-touch">
+            <h3>Get In Touch</h3>
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <!-- Required for Web3Forms -->
+                <input type="hidden" name="access_key" value="3085f249-33ea-4411-a253-b010d3d8a328">
+            
+                <div class="form-group">
+                    <input type="text" placeholder="First Name" name="first-name" required>
+                    <input type="text" placeholder="Last Name" name="last-name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Work Email" name="email" required>
+                    <input type="tel" placeholder="Phone" name="phone" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" placeholder="Company" name="company">
+                    <input type="text" placeholder="Job Title" name="job-title">
+                </div>
+                <div class="form-group">
+                    <input type="text" placeholder="State/Territory/County" name="state">
+                    <input type="text" placeholder="Country" name="country">
+                </div>
+
+                <div class="form-group enquiry">
+                    <select id="enquiry" name="enquiry">
+                        <option value="" disabled selected>Enquiry Type</option>
+                        <option value="Pre-Trip_Assistance">Travel Assistance</option>
+                        <option value="Business & Corporate Travel Support">Business & Corporate Travel Support</option>
+                        <option value="Bildung_Bridge Program">Bildung_Bridge Program</option>
+                        <option value="itinerary_planning">Itinerary Planning</option>
+                        <option value="transportation_services">Transportation Services</option>
+                        <option value="Accommodation_Services">Concierge Services</option>
+                        <option value="emergency_assistance">Emergency Assistance</option>
+                        <option value="General_Consultation">General_Consultation</option>
+                        <option value="custom_request">Custom Request</option>
+                        <option value="general_enquiry">General Enquiry</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <textarea placeholder="Message" name="message" rows="3" required></textarea>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" id="agree" required><label for="agree">I agree to the <a href="#">Terms</a> and <a href="#">Privacy Policy</a>.</label>
+                </div>
+                <button type="submit" class="send-button">Send</button>
+            </form>
+        </div>
+    </div>
+<!-- Social Media & Newsletter -->
+<div class="social-newsletter">
+    <h3>Follow Us</h3>
+    <div class="social-icons">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="https://wa.me/message/OIP4JV3XYVPFK1"><i class="fab fa-whatsapp"></i></a>
+    </div>
+    
+    <h3>Subscribe to Our Newsletter</h3>
+    <form>
+        <input type="email" placeholder="Enter your email" required>
+        <button type="submit">Subscribe</button>
+    </form>
+</div>
+    <!-- Copyright -->
+    <div class="footer-bottom">
+        <p>&copy; 2024 Iter Auxilium Services. All rights reserved.</p>
+    </div>
+</footer>
+        
+    <!-- Scroll Buttons -->
+  <button onclick="scrollToTop()" id="topBtn" title="Go to top">↑ Top</button>
+
+  <!-- Swiper JS -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Elfsight WhatsApp Chat | Untitled WhatsApp Chat -->
+<script src="https://static.elfsight.com/platform/platform.js" async></script>
+<div class="elfsight-app-67f13546-cdfb-44ec-836e-b4f74a1cff6b" data-elfsight-app-lazy></div>
+
+
+    </body>
+    <script src="script.js"></script>
+    </html>

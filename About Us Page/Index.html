@@ -1,0 +1,704 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Iter Auxilium Services</title>
+        <link rel="icon" href="../Pictures Page//IAS2.png" type="png">
+        <link rel="stylesheet" href="Styles.css">
+        <link rel="stylesheet" href="Responsive Design.css">
+
+          <!--=== Boxicons CSS ===-->
+          <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+          <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+          
+
+
+        
+    </head>
+    <body>
+        <button onclick="scrollToBottom()" id="bottomBtn" title="Go to bottom">↓ Bottom</button>
+        <nav>
+            <div class="nav-bar">
+                <i class='bx bx-menu sidebarOpen'></i>
+                <span class="logo navlogo"><a href="#">Iter Auxilium services</a></span>
+        
+                <div class="menu">
+                    <div class="logo-toggle">
+                        <img src="../Pictures Page/logo 2.png" alt="logo" class="logo">
+                       <i class='bx bx-x siderbarClose'></i> 
+                    </div>
+                    
+                   <ul class="nav-links">
+                        <li><a href="../Home Page/Index.html">Home</a></li>
+                        <li>
+                            <a href="../About Us Page/Index.html" class="mobile-item">About Us</a>
+                            <ul class="dropdown">
+                                <li><a href="#WHO">Who We Are </a></li>
+                                <li><a href="#objectives">Mission</a></li>
+                                <li><a href="#Vision">Vision</a></li>
+                                <li><a href="../About Us Page/Index.html">Our Team</a></li>
+                             </ul>
+                        </li>
+                        <li><a href="../Services Page/Index.html">Services</a>
+                            <ul class="dropdown">
+                                <li><a href="../Services Page/Index.html">OUR SERVICES</a></li>
+                                <li><a href="../Services Page/Index.html">PRE-TRAVEL SERVICES</a></li>
+                                <li><a href="../Itineraries/Index.html">Itinerary Planning</a></li>
+                                <li><a href="../Corporate Page/Index.html">Business & Corporate Travel Support</a></li>
+                                <li><a href="../Services Page/Index.html">Accommodation</a></li>
+                                <li><a href="../Services Page/Index.html">Transportation</a></li>
+                                <li><a href="../Bildung Bridge/Index.html">Bildung Bridge Program</a></li>
+                                <li><a href="">CONSULTING SERVICES</a></li>
+                             </ul>
+                        </li>
+                        <li><a href="../Blog/Index.html">Travel Insights</a>
+                            <ul class="dropdown">
+                                <li><a href="../Blog/Index.html">BLOG</a></li>
+                                <li><a href="">HISTORY</a></li>
+                             </ul>
+                        </li>
+                        <li><a href="../Contact Page/Index.html">Contact Us</a>
+                            <ul class="dropdown">
+                                <li><a href="../Contact Page/Index.html">CONTACT US</a></li>
+                                <li><a href="../FAQs/Index.html">FAQs</a></li>
+                                <li><a href="Pages/Contact.html">REQUEST A QUOTE</a></li>
+                            </ul>
+                        </li>
+                     </ul>
+                </div>
+        
+                <div class="darkLight-searchBox">
+                    <div class="dark-light">
+                        <i class='bx bx-moon moon'></i>
+                        <i class='bx bx-sun sun'></i>
+                    </div>
+        
+                    <div class="searchBox">
+                        <div class="searchToggle">
+                            <i class='bx bx-x cancel'></i>
+                            <i class='bx bx-search search'></i>
+                        </div>
+        
+                        <div class="search-field">
+                            <input type="text" id="siteSearchInput" placeholder="Search...">
+                            <i class='bx bx-search'></i>
+                        </div>
+                    </div>
+                </div>
+                    
+                </div>
+            </div>
+        </nav>
+
+        <div class="searching-wrapper">
+            <div class="searchBox">
+              <div class="search-field">
+                <input type="text" id="searchInput" placeholder="Search..." />
+              </div>
+              <ul id="searchResults"></ul>
+            </div>
+          </div>
+
+        <section class="hero">
+            <div class="hero-slider" id="slider">
+              <div class="hero-slide"><div class="hero-content"><h1>Explore the World with Comfort & Convenience</h1><p>Welcome to your journey!</p><a href="../Home Page/Index.html" class="btn">Explore</a></div></div>
+              <div class="hero-slide"><div class="hero-content"><h1>Travel Smarter, Travel Better</h1><p>Travel with ease.</p><a href="../Services Page/Index.html" class="btn">Discover</a></div></div>
+              <div class="hero-slide"><div class="hero-content"><h1>Your Next Adventure Awaits</h1><p>Adventure awaits.</p><a href="../Bildung Bridge/Index.html" class="btn">Learn More</a></div></div>
+              <div class="hero-slide"><div class="hero-content"><h1>Your Journey, Our Priority</h1><p>Start your journey.</p><a href="../Corporate Page/Index.html" class="btn">Start Now</a></div></div>
+              <div class="hero-slide"><div class="hero-content"><h1>Discover Where Your Journey Leads Next</h1><p>Plan smarter.</p><a href="../Itineraries/Index.html" class="btn">Check It Out</a></div></div>
+              <div class="hero-slide"><div class="hero-content"><h1>Travel Made Effortless</h1><p>Seamless travel.</p><a href="../Contact Page/Index.html" class="btn">Go</a></div></div>
+              <div class="hero-slide"><div class="hero-content"><h1>Experience Travel Without Barriers</h1><p>Effortless journeys.</p><a href="../Services Page/Index.html" class="btn">Try Now</a></div></div>
+              <div class="hero-slide"><div class="hero-content"><h1>Streamlining Your Journey, Start to Finish</h1><p>Comfort and convenience.</p><a href="../Bildung Bridge/Index.html" class="btn">More Info</a></div></div>
+              <div class="hero-slide"><div class="hero-content"><h1>Travel Worries? Leave Them to Us</h1><p>Business or leisure?</p><a href="../Corporate Page/Index.html" class="btn">Let’s Go</a></div></div>
+              <div class="hero-slide"><div class="hero-content"><h1>Effortless Travel, Every Time</h1><p>Time to explore.</p><a href="../Contact Page/Index.html" class="btn">Join Now</a></div></div>
+            </div>
+        
+            <button class="prev" onclick="prevSlide()">&#10094;</button>
+            <button class="next" onclick="nextSlide()">&#10095;</button>
+          </section>
+
+
+          
+    <section class="about-us">
+          <div class="container">
+            <ul>
+                <li><a href="#WHO">Who We Are</a></li>
+                <li><a href="#objectives">Mission</a></li>
+                <li><a href="#Vision">Vision</a></li>
+                <li><a href="About Us.html">Management</a></li>
+                <li><a href="About Us.html">Our team</a></li>
+            </ul>
+          </div>
+    </section>
+
+
+          <section id="WHO" class="Overview">
+            <div class="Profile">
+                <h1>Who We Are – Iter Auxilium Services (IAS)</h1>
+               <h2>Overview</h2>
+               <p>Iter Auxilium Service (IAS) is a specialized travel support service 
+                designed to cater to the needs of modern travelers by offering personalized, 
+                efficient, and reliable assistance. The company focuses on delivering a 
+                smooth and hassle-free travel experience by handling all logistical aspects 
+                of a trip, ensuring clients can focus on enjoying their journey.. 
+                 <p>
+                    IAS provides a wide range of services, including transportation coordination,
+                     itinerary customization, accommodation booking, concierge assistance, and 
+                     emergency support. Our approach integrates digital solutions with on-the-ground 
+                     support, allowing travelers to access help anytime, anywhere. We cater to diverse 
+                     clientele, including tourists, corporate travelers, expatriates, Students, and VIP 
+                     clients who require seamless transitions between destinations.</p>
+                </p>
+                <p>Our service model leverages partnerships with hotels, airlines, local transport 
+                    providers, and tourism boards to offer exclusive benefits and streamlined coordination.
+                     By prioritizing customer satisfaction, technological innovation, and a proactive support 
+                     system, IAS aims to redefine the travel assistance industry and establish itself as a trusted 
+                     global brand.</p>
+            </div>
+        </section>
+
+
+        <section id="objectives" class="Mission">
+            <img src="../Pictures Page/full-shot-smiley-woman-walking-with-baggage.jpg" 
+            alt="full-shot-smiley-woman-walking-with-baggage">
+        <div class="Miss">
+            <h2>Our Mission <br>Transforming Travel Assistance into Seamless, Empowering Journeys</h2>
+            <p>Our mission is to simplify travel logistics by integrating all essential services 
+                into one streamlined, customer-focused solution. We eliminate the complexities of 
+                travel planning, so you can focus on what truly matters—whether it’s business success, 
+                personal growth, or cultural exploration.</p>
+            <p>We aim to simplify travel logistics by providing a single, seamless service that 
+                integrates all aspects of travel assistance. From the moment you plan your trip until 
+                you return home, IAS ensures that your experience is hassle-free, giving you convenience, 
+                flexibility, and peace of mind.</p>
+            <p> We redefine the travel experience by offering comprehensive, personalized, and stress-free travel 
+                assistance. We are dedicated to eliminating the complexities of travel, ensuring that every 
+                journey—whether for business, leisure, education, or relocation—is smooth, safe, and enjoyable.</p>
+            <p>Our approach integrates cutting-edge technology, strategic partnerships, and exceptional customer 
+                service to provide travelers with a holistic support system that guarantees peace of mind before, 
+                during, and after their trip.</p>
+        </div>
+    </section>
+
+    <section class="Principles">
+        <div class="Value">
+            <h2>What We Do at Iter Auxilium Services (IAS)</h2>
+            <p>At Iter Auxilium Services (IAS), we specialize in providing comprehensive travel assistance 
+                that ensures a seamless, stress-free journey for travelers worldwide. Whether you're traveling 
+                for business, leisure, education, or medical purposes, our goal is to eliminate the complexities 
+                of travel and offer personalized, end-to-end support.</p>
+            <p>With a team of highly skilled professionals, travel consultants, educators, and logistics specialists, 
+                we offer comprehensive end-to-end services that help travelers navigate the complexities of international
+                 travel.</p>
+            <p>We recognize that every traveler has unique needs, and that’s why we go beyond traditional travel services—providing
+                 real-time support, personalized experiences, emergency assistance, and cultural integration programs.</p>
+            <p>📌 Our commitment? Ensuring that every client experiences a well-coordinated, safe, and comfortable journey with 
+                unparalleled support from our expert team.</p>
+            <h2>
+             Our Core Services
+            </h2>
+                <ul>
+                    <li>Pre-Trip Planning & Consultation</li>
+                    <li>Transportation & Airport Transfers</li>
+                    <li>Accommodation Booking & Arrangements</li>
+                    <li>Concierge & Personalized Assistance</li>
+                    <li>Business & Corporate Travel Support</li>
+                    <li>Bild Bridge initiative -Teacher Training Practicum</li>
+                    <li>itinerary Planning</li>
+                </ul>
+            </div>  
+        </div> 
+        <img src="../Pictures Page/medium-shot-woman-traveling-with-mask.jpg" alt="culture">
+    </section> 
+
+    <!--Mobile-->
+    <section class="Mobile-Principles">
+        <img src="../Pictures Page/medium-shot-woman-traveling-with-mask.jpg" alt="culture">
+        <div class="Values">
+            <h2>What We Do at Iter Auxilium Services (IAS)</h2>
+            <p>At Iter Auxilium Services (IAS), we specialize in providing comprehensive travel assistance 
+                that ensures a seamless, stress-free journey for travelers worldwide. Whether you're traveling 
+                for business, leisure, education, or medical purposes, our goal is to eliminate the complexities 
+                of travel and offer personalized, end-to-end support.</p>
+            <p>With a team of highly skilled professionals, travel consultants, educators, and logistics specialists, 
+                we offer comprehensive end-to-end services that help travelers navigate the complexities of international
+                 travel.</p>
+            <p>We recognize that every traveler has unique needs, and that’s why we go beyond traditional travel services—providing
+                 real-time support, personalized experiences, emergency assistance, and cultural integration programs.</p>
+            <p>📌 Our commitment? Ensuring that every client experiences a well-coordinated, safe, and comfortable journey with 
+                unparalleled support from our expert team.</p>
+            <h2>
+             Our Core Services
+            </h2>
+                <ul>
+                    <li>Pre-Trip Planning & Consultation</li>
+                    <li>Transportation & Airport Transfers</li>
+                    <li>Accommodation Booking & Arrangements</li>
+                    <li>Concierge & Personalized Assistance</li>
+                    <li>Business & Corporate Travel Support</li>
+                    <li>Bild Bridge initiative -Teacher Training Practicum</li>
+                    <li>itinerary Planning</li>
+                </ul>
+            </div>  
+        </div> 
+    </section> 
+
+    <!--Vision-->
+    
+ <section id="Vision" class="Main-Vision">
+        <img src="../Pictures Page/christian-lambert-vmIWr0NnpCQ-unsplash.jpg" alt="christian-lamber">
+    <div class="Vis">
+        <h2>Our Vision – Redefining Global Travel Assistance</h2>
+        <p>At Iter Auxilium Services (IAS), we envision a world where every journey is effortless, 
+            secure, and enriching, no matter the destination. Travel should be an experience of 
+            discovery and growth, not stress and uncertainty. That’s why we are committed to becoming
+             the leading global provider of travel assistance services, setting new industry standards 
+             for convenience, reliability, and excellence.</p> 
+        <p>At Iter Auxilium Services (IAS), our vision is to become the leading global provider of 
+            seamless travel assistance, setting the industry standard for reliability, excellence, and 
+            convenience. We aspire to create a world where every traveler—whether for business, education, 
+            leisure, or relocation—experiences a journey that is stress-free, well-supported, and enriching.</p>
+        <p>Our long-term vision is to revolutionize the way people travel by integrating customer-centric services, 
+            global partnerships, and smart technology to provide a fully supported, intuitive, and stress-free travel 
+            experience. At IAS, we believe that every traveler deserves a journey that is effortless, enjoyable, 
+            and empowering—and our vision is to make that a reality for every client worldwide.</p>
+        <p>🚀 "Travel Without Limits – Explore With Confidence!"</p>
+    </div>  
+</section>
+
+
+<section class="Val">
+    <div class="Values">
+         <h2>Core Values of Iter Auxilium Services (IAS) – Our Guiding Principles</h2>
+         <div class="Core">
+         <h2>Customer-Centric Excellence</h2>
+         <p>We prioritize our travelers' needs by delivering personalized, reliable, and high-quality services that ensure seamless travel experiences.
+            We put our customers first by providing personalized, hassle-free, and high-quality travel solutions that cater to individual needs.
+            <br>📌 We measure our success by the satisfaction and trust of our clients.</p>
+         <h2>Integrity & Transparency</h2>
+         <p>We uphold honesty, trust, and clear communication in all our interactions, ensuring our clients receive accurate information and dependable support.
+             Honesty, trust, and clear communication are at the core of everything we do. We believe in fair pricing, ethical business practices, and full transparency with our clients.
+             <br>📌 Trust is the foundation of every great journey, and we build that trust with honesty and reliability.</p>
+             <h2>Innovation & Adaptability</h2>
+         <p>We embrace technology and continuously improve our services to meet the evolving demands of global travelers, ensuring flexibility and convenience.
+             The travel industry is constantly evolving, and so are we. We leverage technology, automation, and industry trends to create efficient, forward-thinking travel solutions.
+             <br>📌 We embrace change and use innovation to make travel smarter, easier, and more seamless.</p>
+             <h2>Safety & Security </h2>
+         <p>Our travelers’ well-being is our top priority. We proactively manage risks, provide emergency support, and ensure secure travel arrangements.
+             Traveler safety is our top priority. We provide risk management, security alerts, and emergency assistance, ensuring that every client is well-protected.
+             <br>📌 Wherever our clients go, they can travel with confidence knowing that IAS has their back.</p>
+             <h2>Commitment to Excellence</h2>
+         <p>We strive for perfection in every service we offer, setting high standards in travel assistance and ensuring outstanding customer satisfaction.
+             We are committed to delivering excellence in every service we provide, ensuring travelers receive unparalleled support and the highest standard of professionalism.
+             <br>📌 We don’t settle for “good enough”—we aim for excellence in every detail of our service.</p>
+             <h2>Empathy & Cultural Sensitivity</h2>
+         <p>We understand the diverse backgrounds of our travelers and provide culturally aware, inclusive, and respectful services to make every journey enriching.
+             Understanding different cultures, languages, and customs is essential to providing a truly inclusive travel experience.
+             <br>📌 We believe that travel should be a bridge that connects people, cultures, and experiences.</p>
+             <h2>Reliability & Efficiency </h2>
+         <p>We handle every detail of travel planning with precision and professionalism, ensuring smooth operations and peace of mind for our clients.
+             Travelers depend on us to provide solutions quickly and efficiently—and we deliver with speed, accuracy, and professionalism.
+             <br>📌 Our clients can count on us to get things done—accurately, quickly, and reliably.</p>
+             <h2>Sustainability & Responsible Travel </h2>
+         <p>We promote ethical and eco-friendly travel practices, encouraging responsible tourism while minimizing environmental impact.
+             We believe in preserving the environment, supporting local communities, and promoting ethical travel practices.
+             <br>📌 We want future generations to explore the world as freely as we do today, which is why we promote sustainable travel practices.
+         </p>
+         </div>
+     </div>
+ </section>
+
+  
+<!--Why Choose Us-->
+
+<section class="Us">
+           <img src="../Pictures Page/yoel-winkler-zCAh6tOWFt8-unsplash.jpg" alt="yoel">
+    <div class="Sub-Us">
+        <h2>Why Choose Us</h2>
+        <h3>Global Support, Local Expertise – Always There for You</h3>
+        <p>At Iter Auxilium Services (IAS), our customer service teams span across the globe, 
+            each equipped with in-depth local market knowledge to provide seamless, real-time 
+            assistance wherever you travel. This global reach allows us to adapt quickly to your 
+            needs, ensuring that no matter the destination or situation, we are always ready to assist. </p>
+        <P>Whether responding to unexpected travel disruptions, global health concerns, or personal 
+            medical needs, IAS stands by you—offering personalized support, expert guidance, and immediate 
+            solutions. From smooth travel experiences to emergency assistance, we are committed to ensuring 
+            that you are taken care of in good times and bad</p>
+    
+        <h3>Empowering Seamless Travel with Choice & Flexibility</h3>
+        <p>We believe that a truly exceptional travel experience comes from choice, flexibility, 
+            and personalized support. By offering tailored travel solutions, we empower our clients 
+            to plan their journeys with confidence, ensuring a hassle-free and enriching experience. </p>
+        <P>We partner with travelers and businesses to create customized itineraries, flexible travel arrangements,
+            and real-time assistance, allowing them to explore the world with ease. Whether it’s business, leisure, 
+            or corporate travel, our goal is to simplify logistics, eliminate stress, and enhance every journey.
+            By prioritizing customer satisfaction and seamless coordination, IAS ensures that every trip is not just 
+            a destination—but a happier, well-planned, and fulfilling experience for our clients.</p>
+    </div>
+</section>
+
+<section class="Network"> 
+    <div class="Local">
+      <h3>Global & Local Network – Reliable Support Wherever You Travel</h3>
+      <p>At Iter Auxilium Services (IAS), our mission is to provide reliable, seamless, and high-quality travel assistance 
+        to our customers, no matter where they are in the world. As part of a global network, we have access to a vast 
+        database of trusted service providers across 192 countries, ensuring that our travelers receive the best possible 
+        support—whether for medical care, transportation, accommodation, or emergency assistance.</p>
+      <P>With operation teams across all time zones, we offer 24/7 travel support, connecting our customers to local and
+         international experts who specialize in healthcare, security, and premium travel services. Whether you need immediate
+          medical attention, urgent travel changes, or concierge services, IAS guarantees swift and efficient solutions 
+          tailored to your needs.</P>  
+        <h3>Seamless & Affordable Travel Assistance</h3>
+       <p>We provide a stress-free and cost-effective travel assistance platform, ensuring a personalized, predictable, and 
+              effortless experience for every traveler. Whether for business, leisure, or professional travel, our services are 
+              designed to reduce complexities, enhance convenience, and optimize affordability.</p>
+        <P>We integrate customized travel solutions, premium services, and essential resources into a single, intuitive platform,
+               allowing travelers to enjoy a seamlessly connected online and offline experience. From personalized itinerary planning, 
+               visa support, and accommodation booking to emergency assistance and corporate travel solutions, IAS ensures every journey 
+               is hassle-free, well-managed, and budget-friendly.</P>  
+    </div>
+    <img src="../Pictures Page/AdobeStock_165906615_Preview.jpeg" alt="yoel">
+</section>
+
+<!--Mobile-Network-->
+<section class="Mobile-Network"> 
+    <img src="../Pictures Page/AdobeStock_165906615_Preview.jpeg" alt="yoel">
+    <div class="Local">
+      <h3>Global & Local Network – Reliable Support Wherever You Travel</h3>
+      <p>At Iter Auxilium Services (IAS), our mission is to provide reliable, seamless, and high-quality travel assistance 
+        to our customers, no matter where they are in the world. As part of a global network, we have access to a vast 
+        database of trusted service providers across 192 countries, ensuring that our travelers receive the best possible 
+        support—whether for medical care, transportation, accommodation, or emergency assistance.</p>
+      <P>With operation teams across all time zones, we offer 24/7 travel support, connecting our customers to local and
+         international experts who specialize in healthcare, security, and premium travel services. Whether you need immediate
+          medical attention, urgent travel changes, or concierge services, IAS guarantees swift and efficient solutions 
+          tailored to your needs.</P>  
+        <h3>Seamless & Affordable Travel Assistance</h3>
+       <p>We provide a stress-free and cost-effective travel assistance platform, ensuring a personalized, predictable, and 
+              effortless experience for every traveler. Whether for business, leisure, or professional travel, our services are 
+              designed to reduce complexities, enhance convenience, and optimize affordability.</p>
+        <P>We integrate customized travel solutions, premium services, and essential resources into a single, intuitive platform,
+               allowing travelers to enjoy a seamlessly connected online and offline experience. From personalized itinerary planning, 
+               visa support, and accommodation booking to emergency assistance and corporate travel solutions, IAS ensures every journey 
+               is hassle-free, well-managed, and budget-friendly.</P>  
+    </div>
+</section>
+
+<!-- Airport Section with Swiper Slider -->
+<section class="Airport">
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <!-- Slide 1 -->
+            <div class="swiper-slide">
+                <div class="card">
+                    <div class="image">
+                        <!--<img src="Pictures/full-shot-adults-traveling-with-kid.jpg" alt="Slide Image">-->
+                    </div>
+                    <div class="name-profession">
+                        <!--<h2 class="Services">Airport Transfer Services</h2>-->
+                        <p class="description">"At Iter Auxilium Services, we believe that travel should be more than just movement—it should 
+                            be an experience of ease, confidence, and discovery. Our mission is to eliminate the complexities of travel by 
+                            providing seamless, well-coordinated assistance at every stage of your journey. Whether you're traveling for business, 
+                            education, leisure, or relocation, our expert team ensures that you arrive stress-free and well-prepared. With IAS, 
+                            you don't just travel; you experience the world with peace of mind."</p>
+                        <h3>Co-Founder & CEO, Iter Auxilium Services</h3>
+                        <!--<button class="button"><a href="">View More</a></button>-->
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="swiper-slide">
+                <div class="card">
+                    <div class="image">
+                    <!--<img src="Pictures/parking-valet-his-job-with-vehicle-woman.jpg" alt="Slide Image">-->
+                    </div>
+                    <div class="name-profession">
+                        <!--<h2 class="Services">Premium Chauffeur Services</h2>-->
+                        <p class="description">"No two travelers are the same, and neither should their journeys be. At IAS, we specialize in personalized 
+                            travel assistance, ensuring that each itinerary is tailored to individual needs. From securing premium accommodations and organizing 
+                            transport to handling emergency assistance and cultural integration, our services are designed to provide comfort, safety, and efficiency. 
+                            Your journey is our priority, and we’re here to ensure that every step is smooth, well-planned, and enjoyable."</p>
+                        <h3>Co-Founder & Director of Travel Solutions, Iter Auxilium Services</h3>
+                        <!--<button class="button"><a href="">View More</a></button>-->
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 3 -->
+            <div class="swiper-slide">
+                <div class="card">
+                    <div class="image">
+                        <!--<img src="Pictures/pexels-minhle17vn-977237.jpg" alt="Slide Image">-->
+                    </div>
+                    <div class="name-profession">
+                       <!-- <h2 class="Services">Group Transport</h2>-->
+                        <p class="description">"The world is more connected than ever, yet travel can still be unpredictable. Our commitment at IAS is to provide travelers 
+                            with a safety net—ensuring they have access to reliable assistance whenever and wherever they need it. Whether it’s securing last-minute accommodations, 
+                            rerouting flights, or handling unforeseen travel emergencies, we stand by our clients 24/7. Trust IAS to handle the details while you focus on what 
+                            matters most—enjoying your journey."</p>
+                        <h3>Head of Global Operations, Iter Auxilium Services</h3>
+                        <!--<button class="button"><a href="">View More</a></button>-->
+                    </div>
+                </div>
+            </div>
+
+             <!-- Slide 4 -->
+             <div class="swiper-slide">
+                <div class="card">
+                    <div class="image">
+                        <!--<img src="Pictures/medium-shot-people-travel-agency.jpg" alt="Slide Image">-->
+                    </div>
+                    <div class="name-profession">
+                        <!--<h2 class="Services">Visa and Immigration Support</h2>-->
+                        <p class="description">"Time is the most valuable asset for business travelers. At IAS, we streamline every aspect of corporate travel, from VIP airport 
+                            transfers to executive accommodations and priority scheduling. We understand the demands of professionals who require efficiency, reliability, and 
+                            top-tier service. Our goal is to ensure that your business trips are productive, comfortable, and free from unnecessary delays. When you travel with IAS, 
+                            you travel with excellence."</p>
+                        <h3>Director of Corporate Travel Services, Iter Auxilium Services</h3>
+                        <!--<button class="button"><a href="">View More</a></button>-->
+                    </div>
+                </div>
+            </div>  
+
+            <!-- Slide 5 -->
+            <div class="swiper-slide">
+                <div class="card">
+                    <div class="image">
+                        <!--<img src="Pictures/full-shot-man-carrying-baggage.jpg" alt="Slide Image">-->
+                    </div>
+                    <div class="name-profession">
+                        <!--<h2 class="Services">Accommodation Selection & Booking</h2>-->
+                        <p class="description">"Moving abroad for studies or work is a life-changing experience, but it comes with its own set of challenges. At IAS, we simplify this 
+                            transition by offering dedicated student and expatriate support, including visa assistance, accommodation placement, transport coordination, and cultural orientation. 
+                            We don’t just help you relocate; we help you integrate and thrive in your new environment. With IAS, your global journey begins with confidence and ease."</p>
+                        <h3>Head of International Student & Expat Services, Iter Auxilium Services</h3>
+                        <!--<button class="button"><a href="">View More</a></button>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+        <!-- Navigation Buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+        <!-- Pagination -->
+        <div class="swiper-pagination"></div>
+    </div>
+</section>
+ 
+
+          
+<!-- WhatsApp Chat Floating Button -->
+<a
+  href="https://wa.me/4917681395004?text=Hello%20IAS%20Team!%20I'm%20interested%20in%20your%20corporate%20services."
+  class="whatsapp-float"
+  target="_blank"
+  rel="noopener"
+  title="Chat with us on WhatsApp"
+>
+  <img src="https://img.icons8.com/color/48/000000/whatsapp--v1.png" alt="WhatsApp Chat" />
+</a>
+        
+
+
+    <!--Contact-->
+<section class="Contact">
+    <h2>Get In Touch-Free Consultation</h2>
+    <form action="https://api.web3forms.com/submit" method="POST">
+        <!-- Required for Web3Forms -->
+        <input type="hidden" name="access_key" value="3085f249-33ea-4411-a253-b010d3d8a328">
+    
+        <div class="form-group">
+            <input type="text" name="first_name" placeholder="First Name" required>
+            <input type="text" name="last_name" placeholder="Last Name" required>
+        </div>
+        <div class="form-group">
+            <input type="email" name="email" placeholder="Email" required>
+            <input type="tel" name="phone" placeholder="Phone">
+        </div>
+        <div class="form-group">
+            <input type="text" name="company" placeholder="Company">
+            <input type="text" name="Job_title" placeholder="Job Title">
+        </div>
+        <div class="form-group enquiry">
+            <!--<label for="enquiry">Select Your Enquiry Type:</label>-->
+            <select id="enquiry" name="enquiry" class="enquiry">
+                <option value="" disabled selected>Enquiry Type</option>
+                <option value="Pre-Trip_Assistance">Travel Assistance</option>
+                <option value="Business & Corporate Travel Support">Business & Corporate Travel Support</option>
+                <option value="Bildung_Bridge Program">Bildung_Bridge Program</option>
+                <option value="itinerary_planning">Itinerary Planning</option>
+                <option value="transportation_services">Transportation Services</option>
+                <option value="Accommodation_Services">Concierge Services</option>
+                <option value="emergency_assistance">Emergency Assistance</option>
+                <option value="General_Consultation">General_Consultation</option>
+                <option value="custom_request">Custom Request</option>
+                <option value="general_enquiry">General Enquiry</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <input type="text" name="state" placeholder="State/Territory/Country">
+            <input type="text" name="country" placeholder="Country" required>
+        </div>
+
+        <textarea name="message" placeholder="Message"></textarea>
+
+        <div class="form-check">
+            <input type="checkbox" id="terms" required>
+            <label for="terms">I agree to the <a href="#">Terms</a> and <a href="#">Privacy Policy</a>.</label>
+        </div>
+        <button type="submit" class="bt">Submit</button>
+    </form>
+    <div class="">
+        <div class="">
+        </div>
+    </div>
+</section>
+
+<!-- Footer Section -->
+ 
+ <footer class="footer">
+    <div class="footer-container">
+        <!-- About Section -->
+         <img src="../Pictures Page/logo 2.png" alt="Logo">
+        <div class="footer-section">
+            <h3>About Us – Iter Auxilium Services (IAS)</h3>
+            <p>We provide efficient and reliable travel solutions designed to make your journey smooth, 
+                comfortable, and stress-free. From personalized itineraries to hassle-free transportation, 
+                we ensure every detail is carefully managed, so you can focus on enjoying your trip. 
+                Whether you're traveling for business or leisure, our services guarantee convenience, 
+                safety, and peace of mind at every step.</p>
+            <p>Iter Auxilium Services (IAS) is a customer-centric travel assistance company dedicated to making 
+                global travel effortless, stress-free, and enriching. Our mission is to provide seamless travel 
+                support, ensuring that every journey—whether for business, education, leisure, or relocation—is 
+                smooth and worry-free.
+            </p>
+            <p>📌 Our commitment? Ensuring that every client experiences a well-coordinated, safe, and comfortable 
+                journey with unparalleled support from our expert team.</p>
+        </div>
+
+        <div class="details">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="../Home Page/Index.html">Home</a></li>
+                <li><a href="../About Us Page/Index.html">About Us</a></li>
+                <li><a href="../Services Page/Index.html">Services</a></li>
+                <li><a href="../Contact Page/Index.html">Contact</a></li>
+                <li><a href="../Bildung Bridge/Index.html">Bildung Bridge</a></li>
+                <li><a href="../Corporate Page/Index.html">Business & Corporate Support</a></li>
+                <li><a href="../Itineraries/Index.html">Itineraries Planning</a></li>
+                <li><a href="../FAQs/Index.html">FAQ</a></li>
+            </ul>
+
+            <h3>Our Services</h3>
+            <ul>
+                <li><a href="../Bildung Bridge/Index.html">Bildung Bridge</a></li>
+                <li><a href="../Services Page/Index.html">Transportation</a></li>
+                <li><a href="../Corporate Page/Index.html">Business and Corporate Travel</a></li>
+                <li><a href="../Services Page/Index.html">Accommodation</a></li>
+                <li><a href="../Itineraries/Index.html">Itinerary Planning</a></li>
+            </ul>
+
+            <h3>Contact Us</h3>
+            <ul>
+                <li><i class="fas fa-map-marker-alt"></i> 123 Travel Street, City, Country</li>
+                <li><i class="fas fa-phone"></i> +491787040122 </li>
+                <li><i class="fas fa-envelope"></i>contact@yourwebsite.com</li>
+            </ul>
+
+        </div>
+
+        <!-- Get In Touch Section -->
+        <div class="get-in-touch">
+            <h3>Get In Touch</h3>
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <!-- Required for Web3Forms -->
+                <input type="hidden" name="access_key" value="3085f249-33ea-4411-a253-b010d3d8a328">
+            
+                <div class="form-group">
+                    <input type="text" placeholder="First Name" name="first-name" required>
+                    <input type="text" placeholder="Last Name" name="last-name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Work Email" name="email" required>
+                    <input type="tel" placeholder="Phone" name="phone" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" placeholder="Company" name="company">
+                    <input type="text" placeholder="Job Title" name="job-title">
+                </div>
+                <div class="form-group">
+                    <input type="text" placeholder="State/Territory/County" name="state">
+                    <input type="text" placeholder="Country" name="country">
+                </div>
+
+                <div class="form-group enquiry">
+                    <select id="enquiry" name="enquiry">
+                        <option value="" disabled selected>Enquiry Type</option>
+                        <option value="Pre-Trip_Assistance">Travel Assistance</option>
+                        <option value="Business & Corporate Travel Support">Business & Corporate Travel Support</option>
+                        <option value="Bildung_Bridge Program">Bildung_Bridge Program</option>
+                        <option value="itinerary_planning">Itinerary Planning</option>
+                        <option value="transportation_services">Transportation Services</option>
+                        <option value="Accommodation_Services">Concierge Services</option>
+                        <option value="emergency_assistance">Emergency Assistance</option>
+                        <option value="General_Consultation">General_Consultation</option>
+                        <option value="custom_request">Custom Request</option>
+                        <option value="general_enquiry">General Enquiry</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <textarea placeholder="Message" name="message" rows="3" required></textarea>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" id="agree" required><label for="agree">I agree to the <a href="#">Terms</a> and <a href="#">Privacy Policy</a>.</label>
+                </div>
+                <button type="submit" class="send-button">Send</button>
+            </form>
+        </div>
+    </div>
+<!-- Social Media & Newsletter -->
+<div class="social-newsletter">
+    <h3>Follow Us</h3>
+    <div class="social-icons">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href= "https://wa.me/message/OIP4JV3XYVPFK1 " ><i class="fab fa-whatsapp"></i></a>
+    </div>
+    
+    <h3>Subscribe to Our Newsletter</h3>
+    <form>
+        <input type="email" placeholder="Enter your email" required>
+        <button type="submit">Subscribe</button>
+    </form>
+</div>
+    <!-- Copyright -->
+    <div class="footer-bottom">
+        <p>&copy; 2024 Iter Auxilium Services. All rights reserved.</p>
+    </div>
+</footer>
+        
+    <!-- Scroll Buttons -->
+   <button onclick="scrollToTop()" id="topBtn" title="Go to top">↑ Top</button>
+     
+     <!-- Swiper JS -->
+     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+     <!-- Elfsight WhatsApp Chat | Untitled WhatsApp Chat -->
+<script src="https://static.elfsight.com/platform/platform.js" async></script>
+<div class="elfsight-app-67f13546-cdfb-44ec-836e-b4f74a1cff6b" data-elfsight-app-lazy></div>
+
+
+    </body>
+    <script src="script.js"></script>
+    </html>
